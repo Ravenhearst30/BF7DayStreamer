@@ -1672,3 +1672,5 @@ Patch 3.0RC1  Release Date 2/9/2018
 -Adjusted Feral Wight Speeds
 
 -Adjusted Shotgun Skill Leveling
+
+-Adjusted chance of Sink Tools
