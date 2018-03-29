@@ -177,7 +177,7 @@
 	<item id="10" name="ClassPaperMaster">
 		<property name="CreativeMode" value="None" />
 		<property name="Meshfile" value="Items/Misc/Book" />
-		<property name="Material" value="class_selection" />
+		<property name="Material" value="knowledge_Points" />
 		<property name="HoldType" value="21" />
 		<property name="Weight" value="1" />
 		<property name="FuelValue" value="1" />
@@ -2390,7 +2390,7 @@
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
 			<property name="EntityDamage" value="6,10" />
-			<property name="BlockDamage" value="5.4,13.5" />
+			<property name="BlockDamage" value="1.1,5.1" />
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="Group" value="Ammo/Weapons" />
@@ -2407,7 +2407,7 @@
 		<property class="Attributes">
 			<property name="GetQualityFromWeapon" value="true" />
 			<property name="EntityDamage" value="90,150" />
-			<property name="BlockDamage" value="100,150" />
+			<property name="BlockDamage" value="10,25" />
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
 		<property name="Group" value="Ammo/Weapons" />
@@ -3266,7 +3266,7 @@
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
 			<property name="DamageBonus.head" value="3" />
 			<property name="DamageBonus.glass" value="1" />
-			<property name="DamageBonus.wood" value="4" />
+			<property name="DamageBonus.wood" value="2" />
 			<property name="DamageBonus.earth" value="0.2" />
 			<property name="DamageBonus.stone" value="1" />
 			<property name="DamageBonus.metal" value="1" />
@@ -3374,7 +3374,7 @@
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
 			<property name="DamageBonus.head" value="3" />
 			<property name="DamageBonus.glass" value="1" />
-			<property name="DamageBonus.wood" value="4" />
+			<property name="DamageBonus.wood" value="2" />
 			<property name="DamageBonus.earth" value="0.2" />
 			<property name="DamageBonus.stone" value="1" />
 			<property name="DamageBonus.metal" value="1" />
@@ -6510,8 +6510,8 @@
 		<property name="DescriptionKey" value="classSelectionRewardDesc" />
 		<property name="CustomIcon" value="classSelection" />
 		<property name="Meshfile" value="Items/Misc/Book" />
-		<property name="Material" value="class_selection" />
-		<property name="Weight" value="1" />
+		<property name="Material" value="knowledge_Points" />
+		<property name="Weight" value="5" />
 		<property name="HoldType" value="21" />
 		<property name="Stacknumber" value="1" />
 		<property name="FuelValue" value="20" />
@@ -19264,7 +19264,7 @@
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
 			<property name="Gain_food" value="2" />
-			<property name="Gain_water" value="-5" />
+			<property name="Gain_water" value="-3" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
@@ -19296,7 +19296,7 @@
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
 			<property name="Gain_food" value="3" />
-			<property name="Gain_water" value="-5" />
+			<property name="Gain_water" value="-3" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
@@ -20640,8 +20640,8 @@
 			<property name="Delay" value="2.1" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
-			<property name="Gain_food" value="3" />
-			<property name="Gain_water" value="-2" />
+			<property name="Gain_food" value="5" />
+			<property name="Gain_water" value="-1" />
 			<property name="Gain_wellness" value="0.0" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
@@ -23993,7 +23993,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="45" />
-		<property name="Weight" value="2" />
+		<property name="Weight" value="1" />
 		<property name="Stacknumber" value="1000" />
 		<property name="EconomicValue" value="10" />
 		<property name="EconomicBundleSize" value="10" />
@@ -24027,6 +24027,7 @@
 		<property name="CustomIcon" value="nail" />
 		<property name="CustomIconTint" value="a0a0ff" />
 		<property name="Material" value="metal" />
+		<property name="Weight" value="1" />
 		<property name="HoldType" value="45" />
 		<property name="Stacknumber" value="1000" />
 		<property name="EconomicValue" value="10" />
@@ -25950,7 +25951,7 @@
 	</item>
 	<!--     ********************************* *******************************Kukri******************************* ********************************* -->
 	<item id="1534" name="kukriRed">
-		<property name="Meshfile" value="#RHWeapons?kukriRed" />
+		<property name="Meshfile" value="#RHWeapons?kukriHot" />
 		<property name="Material" value="metal" />
 		<property name="RepairTools" value="forgedIron" />
 		<property name="HoldType" value="36" />
@@ -26408,7 +26409,7 @@
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
 			<property name="Gain_food" value="2" />
-			<property name="Gain_water" value="-5" />
+			<property name="Gain_water" value="-3" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
