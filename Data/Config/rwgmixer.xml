@@ -382,7 +382,7 @@
 			<prefab name="bar_sm_01"/>
 			<prefab name="fire_station_01" max_count="1"/>
 			<prefab name="fire_station_02" max_count="1"/>
-			<prefab rule="skyscrapers" min_count="1" max_count="1"/>
+			<prefab rule="skyscrapers" min_count="1" max_count="2"/>
 			<prefab name="store_pawn_01" max_count="1"/>
 			<prefab name="xcostum_stripclub(by_magoli)" max_count="1" prob="0.6"/>
 			<prefab name="xcostum_StripClub(by_Wsiegel)" max_count="1" prob="0.6"/>
@@ -413,14 +413,14 @@
 			<prefab name="ravenhearst_xcostum_Apartment_Stores(by_Laz_Man)" max_count="1"/>
 		</prefab_rule>
 		<prefab_rule name="skyscrapers">
-			<prefab name="xcostum_Skycpraper(by_Peppino)" max_count="1" prob="25"/>
-			<prefab name="xcostum_Apartments(by_Batman)" max_count="1" prob="15"/>
-			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" prob="10"/>
-			<prefab name="Tom_Turm" max_count="1" prob="1"/>
 			<prefab name="skyscraper_01" max_count="1" prob="50"/>
 			<prefab name="skyscraper_02" max_count="1" prob="50"/>
 			<prefab name="skyscraper_03" max_count="1" prob="50"/>
 			<prefab name="skyscraper_04" max_count="1" prob="50"/>
+			<prefab name="xcostum_Skycpraper(by_Peppino)" max_count="1" prob="25"/>
+			<prefab name="xcostum_Apartments(by_Batman)" max_count="1" prob="15"/>
+			<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" prob="10"/>
+			<prefab name="Tom_Turm" max_count="1" prob="10"/>
 		</prefab_rule>
 		<prefab_rule name="industrialGroup">
 			<prefab name="utility_waterworks_01" max_count="1"/>
