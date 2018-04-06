@@ -688,7 +688,7 @@
 		<ingredient name="cloth" count="1"/>
 		<ingredient name="tallow" count="1"/>
 	</recipe>
-	<recipe name="foodYuccaJuice" count="1">
+	<recipe name="foodYuccaJuice" count="1"> 
 		<ingredient name="foodYuccaFruit" count="4"/>
 		<ingredient name="emptyJar" count="1"/>
 	</recipe>
@@ -1111,7 +1111,6 @@
 	</recipe>
 	<recipe name="oil" count="1" craft_area="chemistryStation">
 		<ingredient name="oilShale" count="24"/>
-		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="officeChair01" count="1" craft_area="decoStation">
 		<ingredient name="leather" count="5"/>
@@ -3485,13 +3484,6 @@
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_stone" count="10"/>
 	</recipe>
-	<recipe name="windmill" count="1" scrapable="False">
-		<ingredient name="forgedSteel" count="150"/>
-		<ingredient name="carBattery" count="1"/>
-		<ingredient name="electricParts" count="30"/>
-		<ingredient name="smallEngine" count="2"/>
-		<ingredient name="electronicParts" count="80"/>
-	</recipe>
 	<recipe name="mushroomGrilled" count="1" craft_time="8"  craft_area="trashCanSmoker">
 		<ingredient name="mushrooms" count="2"/>
 	</recipe>
@@ -4422,6 +4414,10 @@
 		<ingredient name="unit_iron" count="40"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
+	<recipe name="metalTrussingSheet" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
+		<ingredient name="unit_iron" count="40"/>
+		<ingredient name="unit_clay" count="5"/>
+	</recipe>
 	<recipe name="minibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="20"/>
@@ -4570,43 +4566,43 @@
 		<ingredient name="bellows" count="1"/>
 		<ingredient name="shortMetalPipe" count="1"/>
 	</recipe>
-	<recipe name="ECOAuger" count="1" craft_area="assembly" craft_exp_gain="50">
-		<ingredient name="SteelHandlebars" count="1"/>
+	<recipe name="steelAuger" count="1" craft_area="assembly" craft_exp_gain="50">
+		<ingredient name="steelHandlebars" count="1"/>
 		<ingredient name="ECOSmallEngine" count="1"/>
-		<ingredient name="ECOAuger_Parts" count="1"/>
-		<ingredient name="ECOAuger_Blade" count="1"/>
+		<ingredient name="steelAuger_Parts" count="1"/>
+		<ingredient name="steelAuger_Blade" count="1"/>
 	</recipe>
-	<recipe name="ECOChainsaw" count="1" craft_area="assembly" craft_exp_gain="50">
-		<ingredient name="SteelHandlebars" count="1"/>
+	<recipe name="steelChainsaw" count="1" craft_area="assembly" craft_exp_gain="50">
+		<ingredient name="steelHandlebars" count="1"/>
 		<ingredient name="ECOSmallEngine" count="1"/>
-		<ingredient name="ECOChainsaw_Parts" count="1"/>
-		<ingredient name="ECOChainsaw_Blade" count="1"/>
+		<ingredient name="steelChainsaw_Parts" count="1"/>
+		<ingredient name="steelChainsaw_Blade" count="1"/>
 	</recipe>
-	<recipe name="ECOAuger_Parts" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
+	<recipe name="steelAuger_Parts" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
 		<ingredient name="partsAuger_parts" count="1"/>
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="forgedSteel" count="10"/>
 	</recipe>
-	<recipe name="ECOAuger_Blade" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
+	<recipe name="steelAuger_Blade" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
 		<ingredient name="partsAuger_blade" count="1"/>
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="forgedSteel" count="10"/>
 	</recipe>
-	<recipe name="ECOChainsaw_Parts" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
+	<recipe name="steelChainsaw_Parts" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
 		<ingredient name="partsChainsaw_parts" count="1"/>
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="forgedSteel" count="10"/>
 	</recipe>
-	<recipe name="ECOChainsaw_Blade" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
+	<recipe name="steelChainsaw_Blade" count="1"   craft_area="advancedWorkbench" craft_tool="chisel">
 		<ingredient name="partsChainsaw_blade" count="1"/>
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="forgedSteel" count="10"/>
 	</recipe>
-	<recipe name="SteelMinibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="steelMinibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="600"/>
 		<ingredient name="unit_clay" count="40"/>
 	</recipe>
-	<recipe name="TungstenMinibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="diamondMinibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="1200"/>
 		<ingredient name="unit_clay" count="120"/>
 	</recipe>
@@ -4616,31 +4612,31 @@
 		<ingredient name="Twine" count="4"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="TungstenMinibikeSeat" count="1" craft_area="advancedWorkbench">
+	<recipe name="diamondMinibikeSeat" count="1" craft_area="advancedWorkbench">
 		<ingredient name="ductTape" count="5"/>
 		<ingredient name="rawDiamond" count="5"/>
 		<ingredient name="Twine" count="4"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="SteelMinibikeHandlebars" count="1" craft_area="advancedWorkbench">
-		<ingredient name="SteelHandlebars" count="1"/>
+	<recipe name="steelMinibikeHandlebars" count="1" craft_area="advancedWorkbench">
+		<ingredient name="steelHandlebars" count="1"/>
 		<ingredient name="ductTape" count="4"/>
 		<ingredient name="electricParts" count="2"/>
 		<ingredient name="headlight" count="1"/>
 	</recipe>
-	<recipe name="TungstenMinibikeHandlebars" count="1" craft_area="advancedWorkbench">
-		<ingredient name="TungstenHandlebars" count="1"/>
+	<recipe name="diamondMinibikeHandlebars" count="1" craft_area="advancedWorkbench">
+		<ingredient name="diamondHandlebars" count="1"/>
 		<ingredient name="ductTape" count="4"/>
 		<ingredient name="headlight" count="2"/>
 		<ingredient name="rawDiamond" count="5"/>
 	</recipe>
-	<recipe name="SteelHandlebars" count="1" craft_area="advancedWorkbench">
+	<recipe name="steelHandlebars" count="1" craft_area="advancedWorkbench">
 		<ingredient name="ductTape" count="3"/>
 		<ingredient name="militaryFiber" count="4"/>
 		<ingredient name="forgedSteel" count="10"/>
 		<ingredient name="shortMetalPipe" count="6"/>
 	</recipe>
-	<recipe name="TungstenHandlebars" count="1" craft_area="advancedWorkbench">
+	<recipe name="diamondHandlebars" count="1" craft_area="advancedWorkbench">
 		<ingredient name="ductTape" count="3"/>
 		<ingredient name="militaryFiber" count="4"/>
 		<ingredient name="rawDiamond" count="5"/>
@@ -4777,6 +4773,7 @@
 	</recipe>
 	<recipe name="oil" count="3" craft_area="oilRefinery">
 		<ingredient name="oilShale" count="10"/>
+		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="oil" count="1" craft_area="oilRefinery">
 		<ingredient name="tallow" count="7"/>
@@ -5761,6 +5758,10 @@
 		<ingredient name="vSSVintorezBarrel" count="1"/>
 		<ingredient name="vSSVintorezParts" count="1"/>
 	</recipe>
+	<recipe name="reggieSpecial" count="1" craft_area="advancedWorkbench" craft_tool="chisel">
+		<ingredient name="DoubleBarrel" count="2"/>
+		<ingredient name="forgedSteel" count="50"/>
+	</recipe>
 	<recipe name="Pitchfork" count="1">
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="wood" count="5"/>
@@ -5808,17 +5809,17 @@
 		<ingredient name="chainsawSchematicvol3" count="1"/>
 		<ingredient name="chainsawSchematicvol4" count="1"/>
 	</recipe>
-	<recipe name="ECOAugerSchematic" count="1" craft_time="8" craft_area="ResearchDesk">
-		<ingredient name="ECOAugerSchematicvol1" count="1"/>
-		<ingredient name="ECOAugerSchematicvol1" count="1"/>
-		<ingredient name="ECOAugerSchematicvol1" count="1"/>
-		<ingredient name="ECOAugerSchematicvol1" count="1"/>
+	<recipe name="steelAugerSchematic" count="1" craft_time="8" craft_area="ResearchDesk">
+		<ingredient name="steelAugerSchematicvol1" count="1"/>
+		<ingredient name="steelAugerSchematicvol2" count="1"/>
+		<ingredient name="steelAugerSchematicvol3" count="1"/>
+		<ingredient name="steelAugerSchematicvol4" count="1"/>
 	</recipe>
-	<recipe name="ECOChainsawSchematic" count="1" craft_time="8" craft_area="ResearchDesk">
-		<ingredient name="ECOChainsawSchematicvol1" count="1"/>
-		<ingredient name="ECOChainsawSchematicvol1" count="1"/>
-		<ingredient name="ECOChainsawSchematicvol1" count="1"/>
-		<ingredient name="ECOChainsawSchematicvol1" count="1"/>
+	<recipe name="steelChainsawSchematic" count="1" craft_time="8" craft_area="ResearchDesk">
+		<ingredient name="steelChainsawSchematicvol1" count="1"/>
+		<ingredient name="steelChainsawSchematicvol2" count="1"/>
+		<ingredient name="steelChainsawSchematicvol3" count="1"/>
+		<ingredient name="steelChainsawSchematicvol4" count="1"/>
 	</recipe>
 	<recipe name="pistolBook" count="1" craft_time="8" craft_area="ResearchDesk">
 		<ingredient name="pistolBookvol1" count="1"/>
@@ -5969,7 +5970,7 @@
 		<ingredient name="kukri" count="1"/>
 		<ingredient name="paint" count="5"/>
 	</recipe>
-	<recipe name="fishingRod" count="1" craft_area="workbench">
+	<recipe name="fishingRod" count="1" craft_area="advancedWorkbench">
 		<ingredient name="scrapPlastics" count="50"/>
 		<ingredient name="forgedIron" count="10"/>
 		<ingredient name="Twine" count="10"/>

@@ -1,6 +1,6 @@
 <!-- Groups: firearms, weapons, tools, clothing, scavenging, health, crafting !-->
 <progression>
-	<player 	max_level="200" 	exp_to_level="17000" 	experience_multiplier="1.025" 	skill_points_per_level="5" 	skill_point_multiplier="1.010"/>
+	<player 	max_level="200" 	exp_to_level="17000" 	experience_multiplier="1.025" 	skill_points_per_level="5" 	skill_point_multiplier="1.008"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
 	<skills 	max_level="100" 	exp_to_level="500" 	experience_multiplier="1.03" 	skill_point_cost_multiplier="0" 	skill_point_cost_per_level="1">
@@ -317,7 +317,7 @@
 				<multiply skill_level="9,10" value="0.0086,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="Animal Hide Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Animal Hide Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="armor_iron">
+		<perk name="Animal Hide Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Animal Hide Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="2"/>
 			<recipe name="animalHideBoots" unlock_level="1"/>
 			<recipe name="animalHideLegArmor" unlock_level="1"/>
@@ -326,7 +326,7 @@
 			<recipe name="animalHideGloves" unlock_level="1"/>
 			<recipe name="animalHidePoncho" unlock_level="1"/>
 		</perk>
-		<perk name="Leather Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Leather Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="armor_iron">
+		<perk name="Leather Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Leather Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="3"/>
 			<recipe name="leatherBoots" unlock_level="1"/>
 			<recipe name="leatherPants" unlock_level="1"/>
@@ -334,7 +334,7 @@
 			<recipe name="leatherHood" unlock_level="1"/>
 			<recipe name="leatherGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Scrap Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Scrap Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="armor_iron">
+		<perk name="Scrap Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Scrap Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="4"/>
 			<recipe name="scrapBoots" unlock_level="1"/>
 			<recipe name="scrapLegArmor" unlock_level="1"/>
@@ -342,7 +342,7 @@
 			<recipe name="scrapHelmet" unlock_level="1"/>
 			<recipe name="scrapGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Iron Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Iron Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="armor_iron">
+		<perk name="Iron Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Iron Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="5"/>
 			<recipe name="ironHelmet" unlock_level="1"/>
 			<recipe name="ironChestArmor" unlock_level="1"/>
@@ -350,7 +350,7 @@
 			<recipe name="ironBoots" unlock_level="1"/>
 			<recipe name="ironGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Steel Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Steel Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="armor_iron">
+		<perk name="Steel Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Steel Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="7"/>
 			<recipe name="steelBoots" unlock_level="1"/>
 			<recipe name="steelLegs" unlock_level="1"/>
@@ -358,7 +358,7 @@
 			<recipe name="steelHelmet" unlock_level="1"/>
 			<recipe name="steelGloves" unlock_level="1"/>
 		</perk>
-		<perk name="Military Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Military Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="armor_iron">
+		<perk name="Military Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Military Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="8"/>
 			<recipe name="militaryFiber" unlock_level="1"/>
 			<recipe name="militaryHelmet" unlock_level="1"/>
@@ -367,7 +367,7 @@
 			<recipe name="militaryLegArmor" unlock_level="1"/>
 			<recipe name="militaryVest" unlock_level="1"/>
 		</perk>
-		<perk name="Diamond Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Diamond Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="150" group="armor_iron">
+		<perk name="Diamond Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Diamond Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="150" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="10"/>
 			<recipe name="diamondGloves" unlock_level="1"/>
 			<recipe name="diamondMask" unlock_level="1"/>
@@ -391,7 +391,7 @@
 				<multiply skill_level="1,100" value="0,0"/>
 			</effect>
 		</action_skill>
-		<perk name="Advanced Blunt Weapons" icon="club" description_key="Buying skills in this perk will unlock more Blunt Weapons that you can craft." title_key="Advanced Blunt Weapons" max_level="4" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
+		<perk name="Advanced Blunt Weapons" icon="club" description_key="Buying skills in this perk will unlock more Blunt Weapons that you can craft." title_key="Advanced Blunt Weapons" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="weapons">
 			<requirement skill_level="1" required_skill_name="Blunt Weapons" required_skill_level="10"/>
 			<recipe name="clubIron" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="Blunt Weapons" required_skill_level="20"/>
@@ -468,10 +468,10 @@
 			<recipe name="ironTippedSpear" unlock_level="2"/>
 			<requirement skill_level="3" required_skill_name="Blade Weapons" required_skill_level="30"/>
 			<recipe name="steelTippedSpear" unlock_level="3"/>
-			<requirement skill_level="4" required_skill_name="Blade Weapons" required_skill_level="60"/>
+			<requirement skill_level="4" required_skill_name="Blade Weapons" required_skill_level="40"/>
 			<recipe name="battleAxe" unlock_level="4"/>
 			<recipe name="machete" unlock_level="4"/>
-			<requirement skill_level="5" required_skill_name="Blade Weapons" required_skill_level="30"/>
+			<requirement skill_level="5" required_skill_name="Blade Weapons" required_skill_level="60"/>
 			<recipe name="electricMachete" unlock_level="5"/>
 		</perk>
 		<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="weapons">
@@ -906,7 +906,7 @@
 			<requirement skill_level="3" required_player_level="80"/>
 			<recipe name="steelPolish" unlock_level="3"/>
 		</perk>
-		<action_skill name="Pistols" exp_to_level="300" icon="pistol" description_key="pistolsDesc" title_key="pistols" group="firearms">
+		<action_skill name="Pistols" exp_to_level="400" icon="pistol" description_key="pistolsDesc" title_key="pistols" group="firearms">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,5" value="1,1.04"/>
 				<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -951,7 +951,7 @@
 				<add skill_level="3" value="0.20"/>
 			</effect>
 		</perk>
-		<action_skill name="Shotguns" exp_to_level="300" icon="shotgun" description_key="shotgunsDesc" title_key="shotguns" group="firearms">
+		<action_skill name="Shotguns" exp_to_level="500" icon="shotgun" description_key="shotgunsDesc" title_key="shotguns" group="firearms">
 			<effect name="EntityDamage">
 				<multiply skill_level="1,5" value="1,1.04"/>
 				<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -996,7 +996,7 @@
 				<add skill_level="3" value="0.15"/>
 			</effect>
 		</perk>
-		<action_skill name="Rifles" exp_to_level="300" icon="rifle" description_key="riflesDesc" title_key="rifles" group="firearms">
+		<action_skill name="Rifles" exp_to_level="400" icon="rifle" description_key="riflesDesc" title_key="rifles" group="firearms">
 			<effect name="EntityDamage">
 				<multiply perk_level="0" value="1"/>
 				<multiply skill_level="1,5" value="1,1.04"/>
@@ -1502,13 +1502,14 @@
 				<multiply skill_level="4,5" value="0.0108,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="RiflesClass" icon="ui_game_symbol_famas" description_key="You will receive an SMG, 150 9mm bullets and an SMG schematic.Exclusive Access to the M25 Sniper Rifle and Vintorez. This also unlocks the Ammo Class." title_key="RiflesClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
+		<perk name="RiflesClass" icon="ui_game_symbol_famas" description_key="Accepting this will give you an SMG, 1000 9mm bullets and an SMG schematic.Exclusive Access to the M25 Sniper Rifle and Vintorez. This also unlocks the Ammo Class." title_key="Rifles Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
 		<perk name="Rifle Exclusive" icon="ui_game_symbol_famas" description_key="The rifle expert gains access to the exclusive M25 Sniper" title_key="Rifle Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="RiflesClass" required_skill_level="1"/>
 			<recipe name="M25SniperRifle" unlock_level="1"/>
 			<recipe name="M25SniperRifleLongScoped" unlock_level="1"/>
 			<recipe name="M25SniperRifleExtendedMagazine" unlock_level="1"/>
 			<recipe name="M25SniperRifleLongScopedExtendedMagazine" unlock_level="1"/>
+			<recipe name="vSSVintorez" unlock_level="1"/>
 		</perk>
 		<perk name="craftSkillRifles" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="rifle" description_key="craftSkillRiflesDesc" title_key="craftSkillRifles" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="RiflesClass" required_skill_level="1"/>
@@ -1585,7 +1586,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="HandgunsClass" icon="ui_game_symbol_pistol" description_key="You will receive a pistol, 200 9mm bullets and a pistol schematic. Exclusive Access to Desert Eagle. This also unlocks the Ammo Class." title_key="HandgunsClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
+		<perk name="HandgunsClass" icon="ui_game_symbol_pistol" description_key="Accepting this will give you a pistol, 500 9mm bullets and a pistol schematic. Exclusive Access to Desert Eagle. This also unlocks the Ammo Class." title_key="Handguns Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
 		<perk name="Handgun Exclusive" icon="ui_game_symbol_pistol" description_key="The handgun expert gains access to the exclusive Desert Eagle" title_key="Handgun Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="HandgunsClass" required_skill_level="1"/>
 			<recipe name="DesertEagle" unlock_level="1"/>
@@ -1665,10 +1666,11 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="ShotgunsClass" icon="ui_game_symbol_shotgun" description_key="You will receive a pump shotgun, 150 shotgun shells and a pump shotgun schematic. Exclusive Access to Boomstick Shotgun. This also unlocks the Ammo Class." title_key="ShotgunsClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
+		<perk name="ShotgunsClass" icon="ui_game_symbol_shotgun" description_key="Accepting this will give you a pump shotgun, 500 shotgun shells and a pump shotgun schematic. Exclusive Access to Boomstick Shotgun. This also unlocks the Ammo Class." title_key="Shotguns Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="firearms"/>
 		<perk name="Shotgun Exclusive" icon="ui_game_symbol_shotgun" description_key="The shotgun expert gains access to the exclusive Boomstick" title_key="Shotgun Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="ShotgunsClass" required_skill_level="1"/>
 			<recipe name="DoubleBarrel" unlock_level="1"/>
+			<recipe name="reggieSpecial" unlock_level="1"/>
 		</perk>
 		<perk name="craftSkillShotguns" max_level="10" skill_point_cost_multiplier="1.06" skill_point_cost_per_level="3" exp_to_level="5000000" 	icon="shotgun" description_key="craftSkillShotgunsDesc" title_key="craftSkillShotguns" group="firearms" exp_gain_multiplier="0">
 			<requirement skill_level="1" required_skill_name="ShotgunsClass" required_skill_level="1"/>
@@ -1745,7 +1747,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="SurvivorClass" icon="ui_game_symbol_thesurvivor" description_key="With this skill you will receive a wooden bow, 100 arrows, a claw hammer, skills in cooking as well as extra supplies. Exclusive Access to making Jars and the Chicken Coop and Rain Catcher." title_key="SurvivorClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
+		<perk name="SurvivorClass" icon="ui_game_symbol_thesurvivor" description_key="Accepting this will give you a wooden bow, 250 iron arrows, a claw hammer, skills in cooking as well as extra supplies. Exclusive Access to making Jars and the Chicken Coop and Rain Catcher." title_key="Survivor Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
 		<perk name="Survival Skills" icon="ui_game_symbol_thesurvivor" description_key="The survivor excels at cooking and nourishment and can have access to makeshift survival equipment" title_key="Survival Skills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="SurvivorClass" required_skill_level="1"/>
 			<recipe name="cookingpot" unlock_level="1"/>
@@ -1845,7 +1847,7 @@
 				<multiply skill_level="9,10" value="0.0067,0.0053"/>
 			</effect>
 		</perk>
-		<perk name="BladesClass" icon="ui_game_symbol_knife" description_key="With this skill you will receive a hunting knife, 3 forged iron and a hunting knife schematic. Exclusive Access to the Katana." title_key="BladesClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
+		<perk name="BladesClass" icon="ui_game_symbol_knife" description_key="Accepting this will give you a Kukri, some forged iron and a hunting knife schematic. Exclusive Access to the Katana." title_key="Blades Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="crafting"/>
 		<perk name="Blades Exclusive" icon="ui_game_symbol_knife" description_key="The blade weapons expert gains access to the exclusive Katana" title_key="Blades Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 			<requirement skill_level="1" required_skill_name="BladesClass" required_skill_level="1"/>
 			<recipe name="katanamichonne" unlock_level="1"/>
@@ -1928,7 +1930,7 @@
 			<requirement skill_level="1" required_skill_name="craftSkillBladeWeapons" required_skill_level="7"/>
 			<recipe name="macheteBlade" unlock_level="1"/>
 		</perk>
-		<perk name="BowsClass" icon="ui_game_symbol_archery" description_key="With this skill you will receive a crossbow, 250 stone crossbow bolts and a crossbow schematic. Exclusive Access to the Repeating Crossbow. This also unlocks Arrow Crafting." title_key="BowsClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
+		<perk name="BowsClass" icon="ui_game_symbol_archery" description_key="Accepting this will give you a crossbow, 250 iron crossbow bolts and a crossbow schematic. Exclusive Access to the Repeating Crossbow. This also unlocks Arrow Crafting." title_key="Archer Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
 		<perk name="Bow Exclusive" icon="ui_game_symbol_archery" description_key="The bow expert gains access to the exclusive Repeating Crossbow" title_key="Bow Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 			<requirement skill_level="1" required_skill_name="BowsClass" required_skill_level="1"/>
 			<recipe name="crossbowRepeater" unlock_level="1"/>
@@ -2032,7 +2034,7 @@
 			<recipe name="firestormArrow" unlock_level="5"/>
 			<recipe name="shockCrossbowBolt" unlock_level="5"/>
 		</perk>
-		<perk name="BluntClass" icon="ui_game_symbol_club" description_key="With this skill you will receive a spiked club, 3 forged iron and a spiked club schematic. Exclusive access to Lucille." title_key="BluntClass" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
+		<perk name="BluntClass" icon="ui_game_symbol_club" description_key="Accepting this will give you a spiked club, some forged iron and a spiked club schematic. Exclusive access to Lucille." title_key="Blunt Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="weapons"/>
 		<perk name="Blunt Exclusive" icon="ui_game_symbol_club" description_key="The blunt weapon expert gains access to the exclusive Lucille Baseball Bat" title_key="Blunt Exclusive" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
 			<requirement skill_level="1" required_skill_name="BluntClass" required_skill_level="1"/>
 			<recipe name="lucille" unlock_level="1"/>
@@ -2110,7 +2112,7 @@
 				<multiply skill_level="9,10" value="0.0086,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="MedicalClass" icon="ui_game_symbol_medical" description_key="With this class you will receive a scalpel, 3 forged iron, some medical supplies and exclusive medical recipes. Exclusive Access to First Aid Kits, Antibiotics, Advanced Splints, Disinfectant Bandages and Blue Ice." title_key="Medical Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
+		<perk name="MedicalClass" icon="ui_game_symbol_medical" description_key="Accepting this will give you a scalpel, some forged iron, some medical supplies and exclusive medical recipes. Exclusive Access to First Aid Kits, Antibiotics, Advanced Splints, Disinfectant Bandages and Blue Ice." title_key="Medical Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
 		<perk name="Medical Skills" icon="ui_game_symbol_medical" description_key="The medic excels at creating health items" title_key="Medical Skills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
 			<recipe name="antibiotics" unlock_level="1"/>
@@ -2121,9 +2123,9 @@
 		</perk>
 		<perk name="Alternative Medicine" icon="medical" description_key="altmeddesc" title_key="Alt Medicine" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
-			<recipe name="Joint" unlock_level="1"/>
+			<recipe name="plantedWeed1" unlock_level="1"/>
 		</perk>
-		<perk name="FarmerClass" icon="ui_game_symbol_Farming" description_key="With this class you will receive a Blunderbuss with 100 ammo, some fertilizer, recipe for hoe and sickle and ability to craft some seeds. Exclusive Access to the Compost Bin, Water Well and Double Blunderbuss." title_key="Farming Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
+		<perk name="FarmerClass" icon="ui_game_symbol_Farming" description_key="Accepting this will give you a Blunderbuss with 100 ammo, some fertilizer, a Pitchfork, recipe for steel hoe and sickle and ability to craft some seeds. Exclusive Access to the Compost Bin and Water Well." title_key="Farming Class" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
 		<perk name="Farming Skills" icon="ui_game_symbol_Farming" description_key="The farmer excels at planting and maintaining a garden" title_key="Farming Skills" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="FarmerClass" required_skill_level="1"/>
 			<recipe name="Empty_Composter" unlock_level="1"/>
