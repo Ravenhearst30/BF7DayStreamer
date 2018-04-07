@@ -10823,7 +10823,8 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cobblestoneWedgeIncline"/>
-		</property>-	<property name="SellableToTrader" value="false"/>
+		</property>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1116" name="flagstoneCNRRamp">
 		<property name="Extends" value="flagstoneMaster"/>
@@ -10833,7 +10834,8 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cobblestoneCNRRamp"/>
-		</property>-	<property name="SellableToTrader" value="false"/>
+		</property>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1117" name="flagstonePyramid">
 		<property name="Extends" value="flagstoneMaster"/>
@@ -10841,7 +10843,8 @@
 		<property name="Model" value="pyramid"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="cobblestonePyramid"/>
-		</property>-	<property name="SellableToTrader" value="false"/>
+		</property>
+		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="1118" name="flagstoneArch3m">
 		<property name="Material" value="Mbrick"/>

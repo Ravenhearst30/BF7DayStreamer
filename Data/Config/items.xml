@@ -2593,8 +2593,8 @@
 		<property name="CraftingSkillGroup" value="craftSkillHandGuns" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="LightValue" value="0.45" />
-		<property name="EconomicValue" value="900" />
-		<property name="SellableToTrader" value="false" />
+		<property name="EconomicValue" value="500" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="169" name="partsPistol_grip">
 		<property name="Extends" value="partsMaster" />
@@ -2607,7 +2607,7 @@
 			<property name="DegradationRate" value="10,10" />
 			<property name="DegradationMax" value="2000,5000" />
 		</property>
-		<property name="EconomicValue" value="312" />
+		<property name="EconomicValue" value="212" />
 	</item>
 	<item id="170" name="partsPistol_receiver">
 		<property name="Extends" value="partsMaster" />
@@ -2618,7 +2618,7 @@
 			<property name="FalloffRange" value="22,50" />
 			<property name="DegradationMax" value="2000,5000" />
 		</property>
-		<property name="EconomicValue" value="312" />
+		<property name="EconomicValue" value="212" />
 	</item>
 	<item id="171" name="partsPistol_parts">
 		<property name="Extends" value="partsMaster" />
@@ -2628,7 +2628,7 @@
 		<property class="Attributes">
 			<property name="DegradationMax" value="2000,5000" />
 		</property>
-		<property name="EconomicValue" value="312" />
+		<property name="EconomicValue" value="212" />
 	</item>
 	<item id="172" name="partsPistol_barrel">
 		<property name="Extends" value="partsMaster" />
@@ -2640,7 +2640,7 @@
 			<property name="BlockDamage" value="3,8" />
 			<property name="DegradationMax" value="2000,5000" />
 		</property>
-		<property name="EconomicValue" value="312" />
+		<property name="EconomicValue" value="212" />
 	</item>
 	<item id="173" name="PistolExtendedMag">
 		<property name="Extends" value="gunPistol" />
@@ -2657,7 +2657,7 @@
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="174" name="partsPistol_gripextendedMagazine">
 		<property name="Extends" value="partsMaster" />
@@ -2689,8 +2689,8 @@
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
-		<property name="EconomicValue" value="1300" />
-		<property name="SellableToTrader" value="false" />
+		<property name="EconomicValue" value="900" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="176" name="partsPistol_barrelSilenced">
 		<property name="Extends" value="partsMaster" />
@@ -2723,8 +2723,8 @@
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
-		<property name="EconomicValue" value="1500" />
-		<property name="SellableToTrader" value="false" />
+		<property name="EconomicValue" value="1200" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="178" name="gun44Magnum">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44MagnumPrefab" />
@@ -2784,7 +2784,7 @@
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="LightValue" value="0.45" />
 		<property name="EconomicValue" value="1200" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="179" name="parts44Magnum_grip">
 		<property name="Extends" value="partsMaster" />
@@ -2899,7 +2899,7 @@
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 		<property name="DescriptionKey" value="fiveseveNDesc" />
 		<property name="EconomicValue" value="1200" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="184" name="partsfiveseveN_grip">
 		<property name="Extends" value="partsMaster" />
@@ -3023,7 +3023,7 @@
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 		<property name="DescriptionKey" value="mP443RookDesc" />
 		<property name="EconomicValue" value="1200" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="189" name="partsmP443Rook_grip">
 		<property name="Extends" value="partsMaster" />
@@ -3141,7 +3141,7 @@
 		<property name="LightValue" value="0.45" />
 		<property name="PickupJournalEntry" value="alternateAmmoTip,gunAssemblyTip,augmentGunsTip" />
 		<property name="EconomicValue" value="2300" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="194" name="DesertEagle_Barrel">
 		<property name="CustomIcon" value="DesertEagle_Barrel" />
@@ -3209,7 +3209,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="3000" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="199" name="coltPythonFrame">
 		<property name="Extends" value="parts44Magnum_frame" />
@@ -3316,7 +3316,7 @@
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="LightValue" value="0.45" />
 		<property name="EconomicValue" value="1000" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="204" name="partsPumpShotgun_stockShort">
 		<property name="Extends" value="partsMaster" />
@@ -3426,7 +3426,7 @@
 		<property name="PickupJournalEntry" value="alternateAmmoTip" />
 		<property name="LightValue" value="0.45" />
 		<property name="EconomicValue" value="1500" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="209" name="partsPumpShotgun_stock">
 		<property name="Extends" value="partsMaster" />
@@ -3523,7 +3523,7 @@
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="PickupJournalEntry" value="alternateAmmoTip,gunAssemblyTip,augmentGunsTip" />
 		<property name="EconomicValue" value="2400" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="212" name="DoubleBarrel">
 		<property name="Extends" value="gunPumpShotgun" />
@@ -3581,7 +3581,7 @@
 		<property name="ActionSkillGroup" value="Shotguns" />
 		<property name="CraftingSkillGroup" value="craftSkillShotguns" />
 		<property name="EconomicValue" value="3000" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="213" name="reggieSpecial">
 		<property name="Extends" value="gunPumpShotgun" />
@@ -3752,7 +3752,7 @@
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="LightValue" value="0.45" />
 		<property name="EconomicValue" value="900" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="219" name="partsMP5_stock">
 		<property name="Extends" value="partsMaster" />
@@ -3816,7 +3816,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="1500" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="224" name="partsMP5_stockextendedMagazine">
 		<property name="Extends" value="partsMaster" />
@@ -3895,7 +3895,7 @@
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="LightValue" value="0.45" />
 		<property name="EconomicValue" value="1200" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="226" name="partsAK47_stock">
 		<property name="Extends" value="partsMaster" />
@@ -3958,7 +3958,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="1800" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="231" name="partsAK47_stockextendedMagazine">
 		<property name="Extends" value="partsMaster" />
@@ -3990,7 +3990,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="1500" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="233" name="partsAK47_receiverScope">
 		<property name="Extends" value="partsMaster" />
@@ -4024,7 +4024,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="2000" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="235" name="gunHuntingRifle">
 		<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/HuntingRiflePrefab" />
@@ -4085,7 +4085,7 @@
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="LightValue" value="0.45" />
 		<property name="EconomicValue" value="1300" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="236" name="partsHuntingRifle_stock">
 		<property name="Extends" value="partsMaster" />
@@ -4192,7 +4192,7 @@
 		<property name="LightValue" value="0.45" />
 		<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
 		<property name="EconomicValue" value="1800" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="241" name="gunBoltRifle_Barrel">
 		<property name="CustomIcon" value="Remington8_Barrel" />
@@ -4261,7 +4261,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="2100" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="246" name="gunBoltRifle_ReceiverScope">
 		<property name="CustomIcon" value="Remington8_Receiver" />
@@ -4333,7 +4333,7 @@
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="LightValue" value="0.45" />
 		<property name="EconomicValue" value="1500" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="248" name="partsSniperRifle_stock">
 		<property name="Extends" value="partsMaster" />
@@ -4397,7 +4397,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="1900" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="253" name="partsSniperRifle_barrelSilenced">
 		<property name="Extends" value="partsMaster" />
@@ -4474,7 +4474,7 @@
 		<property name="LightValue" value="0.45" />
 		<property name="PickupJournalEntry" value="alternateAmmoTip,gunAssemblyTip,augmentGunsTip" />
 		<property name="EconomicValue" value="2000" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="255" name="M25SniperRifle_Barrel">
 		<property name="CustomIcon" value="M25SniperRifle_Barrel" />
@@ -4535,7 +4535,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="2500" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="260" name="M25SniperRifle_StockextendedMagazine">
 		<property name="Extends" value="partsMaster" />
@@ -4614,7 +4614,7 @@
 		<property name="LightValue" value="0.45" />
 		<property name="PickupJournalEntry" value="alternateAmmoTip,gunAssemblyTip,augmentGunsTip" />
 		<property name="EconomicValue" value="1500" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="262" name="FAMAS_Parts">
 		<property name="CustomIcon" value="FAMAS_Parts" />
@@ -4675,7 +4675,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="1900" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="267" name="FAMAS_StockextendedMagazine">
 		<property name="DescriptionKey" value="extendedMagazineDesc" />
@@ -4714,7 +4714,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="1600" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="269" name="hKG3Barrel">
 		<property name="Extends" value="partsAK47_barrel" />
@@ -4780,7 +4780,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="1900" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="274" name="iMIGalil_Parts">
 		<property name="Extends" value="partsAK47_parts" />
@@ -4849,7 +4849,7 @@
 		<property name="Categories" value="Weapons" />
 		<property name="Categories_UI" value="ui_game_symbol_knife" />
 		<property name="EconomicValue" value="3000" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="279" name="vSSVintorezBarrel">
 		<property name="Extends" value="partsSniperRifle_barrel" />
@@ -7621,7 +7621,7 @@
 			<property name="Range" value="3.3" />
 			<property name="Sphere" value="0.1" />
 			<property name="Sound_start" value="swoosh" />
-			<property name="Stamina_usage" value="5" />
+			<property name="Stamina_usage" value="7" />
 			<property name="DamageBonus.head" value="7" />
 			<property name="DamageBonus.glass" value="25" />
 			<property name="Buff" value="bleeding" />
@@ -7634,7 +7634,7 @@
 			<property name="Range" value="3.3" />
 			<property name="Sphere" value="0.1" />
 			<property name="Sound_start" value="swoosh" />
-			<property name="Stamina_usage" value="8" />
+			<property name="Stamina_usage" value="12" />
 			<property name="DamageBonus.head" value="8" />
 			<property name="DamageBonus.glass" value="25" />
 			<property name="Buff" value="bleeding" />
