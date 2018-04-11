@@ -1892,3 +1892,12 @@ Patch 3.1.2 Release Patch Notes  Release Date 04/10/2018
 -Fixed Missing Icons for all Extended and Scoped Guns
 
 -Fixed Iron Bow to Crossbow wording in Crossbow Quest
+
+-All Temporary Storage can now be picked up by destroying it again.
+
+-Added Poncho to Animal Hide Perk Description
+
+-Added Gas Can recipe from Oil Barrel to Oil Refinery
+
+-Added Bundle Size limit to raw diamonds
+
