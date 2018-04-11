@@ -806,6 +806,7 @@
 		<item name="qc_theHerdReward" count="1" prob="0.05"/>
 		<item name="qc_theHerd2Reward" count="1" prob="0.05"/>
 		<item name="qc_theTerrorsReward" count="1" prob="0.05"/>
+		<item name="q_corporateSecrets" count="1" prob="0.05"/>
 		<item group="SpecialQuests" count="1" prob="0.5"/>
 	</lootgroup>
 	<lootgroup name="treasureMaps" count="1"  loot_quality_template="baseTemplate">
