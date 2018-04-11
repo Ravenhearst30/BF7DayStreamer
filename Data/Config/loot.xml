@@ -798,10 +798,6 @@
 		<item name="qc_scavengersdelight" count="1" prob="0.7"/>
 		<item name="qc_happymeal" count="1" prob="0.7"/>
 		<item name="qc_sinderpickle" count="1" prob="0.7"/>
-		<item name="secretItemCAB" count="1" prob="0.4"/>
-		<item name="secretItemHigashi" count="1" prob="0.4"/>
-		<item name="secretItemDishong" count="1" prob="0.4"/>
-		<item name="secretItemJoeBros" count="1" prob="0.4"/>
 		<item name="qc_walterwhitewouldbeproud" count="1" prob="0.7"/>
 		<item name="qc_theClassics" count="1" prob="0.5"/>
 		<item name="qc_theHerd" count="1" prob="0.5"/>

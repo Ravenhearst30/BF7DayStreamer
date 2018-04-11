@@ -17350,16 +17350,26 @@
 		<property name="ImposterExchange" value="imposterBlock" param1="67"/>
 	</block>
 	<block id="700" name="cntEPSCooler">
-		<property name="Extends" value="cntCooler"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="CustomIcon" value="cntCooler"/>
 		<property name="DescriptionKey" value="coolerGroupDesc"/>
 		<property name="Material" value="woodgMed"/>
+		<property name="Shape" value="Ext3dModel"/>
+		<property name="Texture" value="282"/>
+		<property name="Mesh" value="models"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="Model" value="LootContainers/cooler" param1="main_mesh"/>
+		<property name="ImposterExchange" value="imposterCTREighth" param1="141"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property class="RepairItems">
+			<property name="scrapPlastics" value="8"/>
+		</property>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="LootList" value="198"/>
+		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="Categories" value="Storage"/>
 		<property name="Categories_UI" value="ui_game_symbol_treasure"/>
-		<drop event="Destroy" count="0"/>
+		<drop event="Destroy" name="cntEPSCooler" count="1"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="702" name="cntEPSCabinet">
@@ -24188,11 +24198,43 @@
 		<property name="LootList" value="240"/>
 		<drop event="Destroy" name="cntEPSTrashPile01" count="1" prob="1" tool_category="harvestingTools"/>
 	</block>
+	<block id="1646" name="JunctionBoxHidden">
+		<property name="Class" value="ElectricWire"/>
+		<property name="DescriptionKey" value="JunctionBoxHiddenDesc"/>
+		<property name="Material" value="metal"/>
+		<property name="Texture" value="8"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="Shape" value="Ext3dModel"/>
+		<property name="Texture" value="293"/>
+		<property name="Mesh" value="models"/>
+		<property name="MaxDamage" value="1000"/>
+		<property name="DamageReceived" value="0.5"/>
+		<property name="Model" value="Industrial/fusebox" param1="main_mesh"/>
+		<property name="HandleFace" value="South"/>
+		<property name="CustomIcon" value="fusebox"/>
+		<property class="RepairItems">
+			<property name="electronicParts" value="1"/>
+			<property name="scrapIron" value="1"/>
+		</property>
+		<property name="ModelOffset" value="0,0.5,0"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="RequiredPower" value="5"/>
+		<property name="Group" value="Science"/>
+		<property class="RepairItems">
+			<property name="forgedIron" value="4"/>
+			<property name="electricParts" value="1"/>
+		</property>
+		<drop event="Harvest" name="electricParts" count="0,1" tool_category="Disassemble"/>
+		<drop event="Harvest" name="scrapIron" count="5,40"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="EconomicValue" value="62"/>
+	</block>
 	<!-- ***** Free ID Slots in the Blocks.xml ********* 
 
 	21   67 @ 69    78 @ 80    88    95 @ 103  	1832    1861 @ 1886  	
 	
-    1839 @ 1855    1836   1838     1646 	2027        2033 @ 2040     	
+    1839 @ 1855    1836   1838    	2027        2033 @ 2040     	
 
  	You cannot go further than 2047. -->
 </blocks>

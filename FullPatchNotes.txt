@@ -1854,3 +1854,41 @@ Patch 3.0RC1  Release Date 2/9/2018
 
 -Added fixed mcDowells and Manor Household
 
+------------------------------------------------------------------------
+
+Patch 3.1.1 Release Patch Notes  Release Date 04/7/2018
+
+-Added Sell Value back to all guns
+
+-Reduced Pistol Sell Price
+
+-Lowered Gamestage Multiplier
+
+-Added More German Translation
+
+-Removed Unneeded Commas from Blocks.xml
+
+-Slightly raised Stamina Drain on Pitchfork.
+
+-------------------------------------------------------------------------
+
+Patch 3.1.2 Release Patch Notes  Release Date 04/10/2018
+
+
+-Removed Corporate Secrets Items that did not belong in the loot list.
+
+-Added fix for Reggie Special Quest
+
+-Added back Hidden Juntion Block for better wiring
+
+-Set a time craft on Reggie Special
+
+-Increased food and water values SLIGHTLY on corn on the cob and boiled egg since they consume a water bottle to make
+
+-Made bullet crafting ingredients sellable again
+
+-Fixed Flour Icon
+
+-Fixed Missing Icons for all Extended and Scoped Guns
+
+-Fixed Iron Bow to Crossbow wording in Crossbow Quest

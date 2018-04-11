@@ -2492,7 +2492,7 @@
 		<property name="Group" value="Ammo/Weapons" />
 		<property name="Categories" value="Ammo" />
 		<property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="165" name="buckshot">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -2506,7 +2506,7 @@
 		<property name="Categories" value="Ammo" />
 		<property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="166" name="bulletCasing">
 		<property name="Meshfile" value="Items/Crafting/bullet_casingPrefab" />
@@ -2519,7 +2519,7 @@
 		<property name="Categories" value="Ammo" />
 		<property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="167" name="bulletTip">
 		<property name="Meshfile" value="Items/Misc/sackPrefab" />
@@ -2533,7 +2533,7 @@
 		<property name="Categories" value="Ammo" />
 		<property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 		<property name="CraftingSkillGroup" value="craftSkillMiscellaneous" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<!--     ********************************* ******************************Pistols******************************** ********************************* -->
 	<item id="168" name="gunPistol">
@@ -2644,7 +2644,7 @@
 	</item>
 	<item id="173" name="PistolExtendedMag">
 		<property name="Extends" value="gunPistol" />
-		<property name="CustomIcon" value="gunPistol" />
+		<property name="CustomIcon" value="PistolExtendedMag" />
 		<property class="Parts">
 			<property name="Stock" value="partsPistol_gripextendedMagazine" />
 		</property>
@@ -2675,7 +2675,7 @@
 	</item>
 	<item id="175" name="PistolSilenced">
 		<property name="Extends" value="gunPistol" />
-		<property name="CustomIcon" value="gunPistol" />
+		<property name="CustomIcon" value="PistolSilenced" />
 		<property class="Parts">
 			<property name="Barrel" value="partsPistol_barrelSilenced" />
 		</property>
@@ -2707,7 +2707,7 @@
 	</item>
 	<item id="177" name="PistolExtendedMagSilenced">
 		<property name="Extends" value="gunPistol" />
-		<property name="CustomIcon" value="gunPistol" />
+		<property name="CustomIcon" value="PistolExtendedMagSilenced" />
 		<property class="Parts">
 			<property name="Barrel" value="partsPistol_barrelSilenced" />
 			<property name="Stock" value="partsPistol_gripextendedMagazine" />
@@ -3584,7 +3584,6 @@
 		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="213" name="reggieSpecial">
-		<property name="Extends" value="gunPumpShotgun" />
 		<property name="Meshfile" value="#doublebarrel?DoubleBarrel" />
 		<property name="DescriptionKey" value="doublebarrelShotgunDesc" />
 		<property name="Material" value="metal" />
@@ -3638,7 +3637,7 @@
 		<property name="ActionSkillGroup" value="Shotguns" />
 		<property name="CraftingSkillGroup" value="craftSkillShotguns" />
 		<property name="EconomicValue" value="3000" />
-		<property name="SellableToTrader" value="false" />
+		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="214" name="partsDoubleBarrel_receiver">
 		<property name="Extends" value="partsMaster" />
@@ -3803,7 +3802,7 @@
 	</item>
 	<item id="223" name="gunMP5Ext">
 		<property name="Extends" value="gunMP5" />
-		<property name="CustomIcon" value="gunMP5" />
+		<property name="CustomIcon" value="gunMP5Ext" />
 		<property name="CustomIconTint" value="FF0000" />
 		<property name="DescriptionKey" value="ExtendedMagDesc" />
 		<property class="Parts">
@@ -3947,7 +3946,7 @@
 	</item>
 	<item id="230" name="AK47ExtendedMag">
 		<property name="Extends" value="gunAK47" />
-		<property name="CustomIcon" value="gunAK47" />
+		<property name="CustomIcon" value="AK47ExtendedMag" />
 		<property class="Parts">
 			<property name="Stock" value="partsAK47_stockextendedMagazine" />
 		</property>
@@ -3976,7 +3975,7 @@
 	</item>
 	<item id="232" name="AK47Scoped">
 		<property name="Extends" value="gunAK47" />
-		<property name="CustomIcon" value="gunAK47" />
+		<property name="CustomIcon" value="AK47Scoped" />
 		<property class="Parts">
 			<property name="Receiver" value="partsAK47_receiverScope" />
 		</property>
@@ -4006,7 +4005,7 @@
 	</item>
 	<item id="234" name="AK47ExtendedMagScoped">
 		<property name="Extends" value="gunAK47" />
-		<property name="CustomIcon" value="gunAK47" />
+		<property name="CustomIcon" value="AK47ExtendedMagScoped" />
 		<property class="Parts">
 			<property name="Stock" value="partsAK47_stockextendedMagazine" />
 			<property name="Receiver" value="partsAK47_receiverScope" />
@@ -4244,10 +4243,9 @@
 	</item>
 	<item id="245" name="gunBoltRifleScoped">
 		<property name="Extends" value="gunBoltRifle" />
-		<property name="CustomIcon" value="Scope" />
+		<property name="CustomIcon" value="gunBoltRifleScoped" />
 		<property name="Weight" value="10" />
-		<property name="DescriptionKey" value="ScopeDesc" />
-		<property name="CustomIcon" value="Remington8" />
+		<property name="DescriptionKey" value="gunBoltRifleScopedDesc" />
 		<property class="Parts">
 			<property name="Receiver" value="gunBoltRifle_ReceiverScope" />
 		</property>
@@ -4264,7 +4262,7 @@
 		<property name="SellableToTrader" value="true" />
 	</item>
 	<item id="246" name="gunBoltRifle_ReceiverScope">
-		<property name="CustomIcon" value="Remington8_Receiver" />
+		<property name="CustomIcon" value="Scope" />
 		<property name="Extends" value="partsMaster" />
 		<property name="PartType" value="Receiver" />
 		<property name="Weight" value="40" />
@@ -18635,7 +18633,7 @@
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
 			<property name="Gain_food" value="6" />
-			<property name="Gain_water" value="0" />
+			<property name="Gain_water" value="1" />
 			<property name="Gain_stamina" value="0" />
 			<property name="Gain_wellness" value="0.12" />
 			<property name="Sound_start" value="player_eating" />
@@ -18851,8 +18849,8 @@
 			<property name="Delay" value="1.0" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
-			<property name="Gain_food" value="4" />
-			<property name="Gain_water" value="0" />
+			<property name="Gain_food" value="6" />
+			<property name="Gain_water" value="1" />
 			<property name="Gain_stamina" value="3" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
@@ -23831,6 +23829,7 @@
 		<property name="Categories" value="Resources" />
 		<property name="Categories_UI" value="ui_game_symbol_advancedtoolsmithing" />
 		<property name="DescriptionKey" value="rareOresGroupDesc" />
+		<property name="EconomicBundleSize" value="1" />
 	</item>
 	<item id="1378" name="goldNugget">
 		<property name="Extends" value="silverNugget" />
@@ -24083,7 +24082,7 @@
 	</item>
 	<item id="1397" name="flour">
 		<property name="Meshfile" value="#RHFoods?flour" />
-		<property name="CustomIcon" value="flour" />
+		<property name="CustomIcon" value="flourbag" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="3" />
 		<property name="Stacknumber" value="500" />

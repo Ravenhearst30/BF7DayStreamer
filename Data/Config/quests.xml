@@ -953,7 +953,7 @@
 		<reward type="Exp" value="500"/>
 		<reward type="Quest" id="quest_WeaponBows04"/>
 	</quest>
-	<quest id="quest_WeaponBows04" group_name_key="quest_WeaponBows" name_key="Daryl Would Be Proud 4/11" subtitle_key="Craft an Iron Bow" description_key="Acquire the materials needed to craft a crossbow." icon="ui_game_symbol_archery" category_key="quest">
+	<quest id="quest_WeaponBows04" group_name_key="quest_WeaponBows" name_key="Daryl Would Be Proud 4/11" subtitle_key="Craft a Crossbow" description_key="Acquire the materials needed to craft a crossbow." icon="ui_game_symbol_archery" category_key="quest">
 		<objective type="FetchKeep" id="forgedIron" value="10"/>
 		<objective type="FetchKeep" id="leather" value="4"/>
 		<objective type="FetchKeep" id="glue" value="4"/>

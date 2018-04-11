@@ -317,7 +317,7 @@
 				<multiply skill_level="9,10" value="0.0086,0.0068"/>
 			</effect>
 		</perk>
-		<perk name="Animal Hide Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below" title_key="Animal Hide Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
+		<perk name="Animal Hide Armor" icon="armor_iron" description_key="Purchase this perk to unlock the set of armor listed below including the Poncho" title_key="Animal Hide Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="clothing">
 			<requirement skill_level="1" required_skill_name="craftSkillArmor" required_skill_level="2"/>
 			<recipe name="animalHideBoots" unlock_level="1"/>
 			<recipe name="animalHideLegArmor" unlock_level="1"/>

@@ -3517,8 +3517,8 @@
 		<property name="AITask-1" value="BreakBlock"/>
 		<property name="AITask-2" value="BreakDoor"/>
 		<property name="AITask-3" value="Territorial"/>
-		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="15"/>
-		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombie" param2="15"/>
+		<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityZombie" param2="15"/>
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="15"/>
 		<property name="AITask-6" value="ApproachSpot"/>
 		<property name="AITask-7" value="Wander"/>
 		<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie"/>

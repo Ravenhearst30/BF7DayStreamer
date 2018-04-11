@@ -4784,7 +4784,7 @@
 		<ingredient name="cornMeal" count="2"/>
 		<ingredient name="bottledRiverWater" count="1"/>
 	</recipe>
-	<recipe name="gasCan" count="300" craft_exp_gain="0">
+	<recipe name="gasCan" count="300" craft_exp_gain="0" craft_area="oilRefinery">
 		<ingredient name="oilBarrel" count="1"/>
 	</recipe>
 	<recipe name="bioFuel" count="1" craft_time="8" craft_area="Stoves">
@@ -5758,7 +5758,7 @@
 		<ingredient name="vSSVintorezBarrel" count="1"/>
 		<ingredient name="vSSVintorezParts" count="1"/>
 	</recipe>
-	<recipe name="reggieSpecial" count="1" craft_area="advancedWorkbench" craft_tool="chisel">
+	<recipe name="reggieSpecial" count="1" craft_time="240" craft_area="advancedWorkbench" craft_tool="chisel">
 		<ingredient name="DoubleBarrel" count="2"/>
 		<ingredient name="forgedSteel" count="50"/>
 	</recipe>
@@ -6039,5 +6039,10 @@
 		<ingredient name="tallow" count="3"/>
 		<ingredient name="coal" count="2"/>
 		<ingredient name="wood" count="1"/>
+	</recipe>
+	<recipe name="JunctionBoxHidden" count="1" craft_area="advancedWorkbench">
+		<ingredient name="forgedIron" count="8"/>
+		<ingredient name="mechanicalParts" count="5"/>
+		<ingredient name="electricParts" count="5"/>
 	</recipe>
 </recipes>
