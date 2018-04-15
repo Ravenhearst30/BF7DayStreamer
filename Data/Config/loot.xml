@@ -2530,7 +2530,7 @@
 	<lootcontainer id="11" count="1,3" size="5,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="5" loot_quality_template="baseTemplate">
 		<item group="weaponsBasicGuns+ammo" prob="0.3"/>
 		<item group="ammo"/>
-		<item name="compoundBow" prob="0.35"/>
+		<item name="compoundBow" prob="0.15"/>
 		<item group="weaponsCrossbowRepeater+ammo" prob="0.03"/>
 		<item name="oldCash" count="50,1000" prob="0.1"/>
 		<item group="rareOres" prob="0.1"/>
@@ -4394,8 +4394,8 @@
 		<item group="zombieQuests" count="1" prob="0.05"/>
 		<item group="flares" count="1" prob="0.025"/>
 		<item group="treasureMaps" count="1" prob="0.025"/>
-		<item group="rareMedicine" count="1,2" prob="0.15"/>
-		<item group="rareTools" count="1,2" prob="0.05"/>
+		<item group="rareMedicine" count="1" prob="0.15"/>
+		<item group="rareTools" count="1" prob="0.05"/>
 		<item name="oldCash" count="50,1000" prob="0.45"/>
 		<item group="pistolsLoot" count="1" prob="0.4"/>
 		<item group="shotgunsLoot" count="1" prob="0.4"/>
@@ -4410,9 +4410,9 @@
 		<item name="forgedSteel" count="3,8" prob="0.2"/>
 		<item name="forgedIron" count="5,10" prob="0.25"/>
 		<item group="craftingTools" count="1" prob="0.05"/>
-		<item group="minibikeParts" prob="0.15"/>
 		<item name="casinoCoin" count="40,600" prob="0.35"/>
-		<item name="knowledgePoint" count="1,4" prob="0.15"/>
+		<item name="knowledgePoint" count="1,2" prob="0.15"/>
+		<item name="car_parts" count="1,5" prob="0.15"/>
 	</lootcontainer>
 	<!-- Air Conditioner -->
 	<lootcontainer id="235" count="0,1" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" open_time="1" loot_quality_template="baseTemplate">

@@ -4002,7 +4002,7 @@
 	</entity_class>
 	<!-- JAXTELLER718 ZOMBIES -->
 	<entity_class name="zombieSusan" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieSusan" />
+		<property name="Mesh" value="#RHHerd?herdSusan" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
@@ -4062,7 +4062,7 @@
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieBert" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieBert" />
+		<property name="Mesh" value="#RHHerd?herdBert" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
@@ -4071,7 +4071,7 @@
 		<property name="AnimationPain" value="Walking 1" />
 		<property name="AnimationJump" value="Walking 1" />
 		<property name="AnimationDeath" value="Zombie Death" />
-		<property name="AnimationRun" value="Walking 1" />
+		<property name="AnimationRun" value="Zombie Run" />
 		<property name="AnimationWalk" value="Walking 1" />
 		<property name="AnimationSpecialAttack" value="Zombie Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
@@ -4081,28 +4081,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="865" />
 		<property name="HandItem" value="handZombieStrong" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieErnie" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieErnie" />
+		<property name="Mesh" value="#RHHerd?herdErnie" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Zombie Headbutt" />
 		<property name="AnimationSecondAttack" value="Zombie Attack" />
-		<property name="AnimationPain" value="Zombie Walk 1" />
-		<property name="AnimationJump" value="Zombie Walk 1" />
+		<property name="AnimationPain" value="Zombie Walk" />
+		<property name="AnimationJump" value="Zombie Walk" />
 		<property name="AnimationDeath" value="Flying Back Death" />
-		<property name="AnimationRun" value="Zombie Walk 1" />
-		<property name="AnimationWalk" value="Zombie Walk 1" />
+		<property name="AnimationRun" value="Zombie Walk" />
+		<property name="AnimationWalk" value="Zombie Walk" />
 		<property name="AnimationSpecialAttack" value="Zombie Neck Bite" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
@@ -4111,28 +4111,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="865" />
 		<property name="HandItem" value="handZombieStrong" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombiePamela" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombiePamela" />
-		<property name="MaxHealth" value="385" />
+		<property name="Mesh" value="#RHHerd?herdPamela" />
+		<property name="MaxHealth" value="485" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
 		<property name="AnimationMainAttack" value="Uppercut" />
 		<property name="AnimationSecondAttack" value="Zombie Neck Bite" />
-		<property name="AnimationPain" value="Walking" />
+		<property name="AnimationPain" value="Walking 2" />
 		<property name="AnimationJump" value="Mutant Jump Attack" />
 		<property name="AnimationDeath" value="Standing Death Forward 02" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Walking 2" />
+		<property name="AnimationWalk" value="Walking 2" />
 		<property name="AnimationSpecialAttack" value="Zombie Neck Bite" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
@@ -4141,28 +4141,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
 		<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
-		<property name="ExperienceGain" value="465" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
+		<property name="ExperienceGain" value="565" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieAna" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieAna" />
+		<property name="Mesh" value="#RHHerd?herdAna" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Zombie Neck Bite" />
 		<property name="AnimationSecondAttack" value="Zombie Attack" />
-		<property name="AnimationPain" value="Walking" />
+		<property name="AnimationPain" value="Injured Walk" />
 		<property name="AnimationJump" value="Mutant Jump Attack" />
 		<property name="AnimationDeath" value="Zombie Dying" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Injured Walk" />
+		<property name="AnimationWalk" value="Injured Walk" />
 		<property name="AnimationSpecialAttack" value="Zombie Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
@@ -4171,18 +4171,18 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
 		<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.5" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieBlackwell" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieBlackwell" />
+		<property name="Mesh" value="#RHHerd?herdBlackwell" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4212,7 +4212,7 @@
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieWashington" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieWashington" />
+		<property name="Mesh" value="#RHHerd?herdWashington" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4242,7 +4242,7 @@
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieAlan" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieAlan" />
+		<property name="Mesh" value="#RHHerd?herdAlan" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4272,7 +4272,7 @@
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieNathan" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieNathan" />
+		<property name="Mesh" value="#RHHerd?herdNathan" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4291,18 +4291,18 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieLloyd" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieLloyd" />
+		<property name="Mesh" value="#RHHerd?herdLloyd" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4321,18 +4321,18 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieKramer" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieKramer" />
+		<property name="Mesh" value="#RHHerd?herdKramer" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4351,18 +4351,18 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieMel" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieMel" />
+		<property name="Mesh" value="#RHHerd?herdMel" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
@@ -4381,11 +4381,11 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
 		<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.5" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
@@ -4422,7 +4422,7 @@
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieDan" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieDan" />
+		<property name="Mesh" value="#RHHerd?herdDan" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4441,18 +4441,18 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.3" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.3" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.5" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieGadriel" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieGadriel" />
+		<property name="Mesh" value="#RHHerd?herdGadriel" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
@@ -4471,18 +4471,18 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.1" />
+		<property name="ApproachSpeed" value="0.2" />
+		<property name="NightWanderSpeed" value="0.1" />
+		<property name="NightApproachSpeed" value="0.2" />
+		<property name="PanicSpeed" value="0.2" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieSinda" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieSinda" />
+		<property name="Mesh" value="#RHHerd?herdSinda" />
 		<property name="MaxHealth" value="385" />
 		<property name="AnimationIdle" value="Idle" />
 		<property name="AnimationSecondIdle" value="Idle" />
@@ -4542,17 +4542,17 @@
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieRotter01" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieRotter01" />
-		<property name="MaxHealth" value="385" />
+		<property name="Mesh" value="#RHHerd?herdRotter01" />
+		<property name="MaxHealth" value="485" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Zombie Attack" />
 		<property name="AnimationSecondAttack" value="Zombie Neck Bite" />
-		<property name="AnimationPain" value="Walking" />
-		<property name="AnimationJump" value="Walking" />
+		<property name="AnimationPain" value="Walking 1" />
+		<property name="AnimationJump" value="Walking 1" />
 		<property name="AnimationDeath" value="Standing React Death Right" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Zombie Running" />
+		<property name="AnimationWalk" value="Walking 1" />
 		<property name="AnimationSpecialAttack" value="Zombie Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
@@ -4561,28 +4561,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
-		<property name="ExperienceGain" value="465" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
+		<property name="ExperienceGain" value="565" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieRotter02" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieRotter02" />
-		<property name="MaxHealth" value="385" />
+		<property name="Mesh" value="#RHHerd?herdRotter02" />
+		<property name="MaxHealth" value="485" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Standing Melee Attack Horizontal" />
 		<property name="AnimationSecondAttack" value="Zombie Neck Bite" />
-		<property name="AnimationPain" value="Walking" />
-		<property name="AnimationJump" value="Walking" />
+		<property name="AnimationPain" value="Injured Walk" />
+		<property name="AnimationJump" value="Injured Walk" />
 		<property name="AnimationDeath" value="Sword And Shield Death" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Zombie Running" />
+		<property name="AnimationWalk" value="Injured Walk" />
 		<property name="AnimationSpecialAttack" value="Standing Melee Run Jump Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
@@ -4591,28 +4591,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieRotter03" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieRotter03" />
-		<property name="MaxHealth" value="385" />
+		<property name="Mesh" value="#RHHerd?herdRotter03" />
+		<property name="MaxHealth" value="485" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Zombie Attack" />
 		<property name="AnimationSecondAttack" value="Zombie Neck Bite" />
-		<property name="AnimationPain" value="Walking" />
-		<property name="AnimationJump" value="Walking" />
+		<property name="AnimationPain" value="Walking 1" />
+		<property name="AnimationJump" value="Walking 1" />
 		<property name="AnimationDeath" value="Standing React Death Right" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Zombie Running" />
+		<property name="AnimationWalk" value="Walking 1" />
 		<property name="AnimationSpecialAttack" value="Zombie Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
@@ -4621,28 +4621,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieRotter04" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieRotter04" />
-		<property name="MaxHealth" value="385" />
+		<property name="Mesh" value="#RHHerd?herdRotter04" />
+		<property name="MaxHealth" value="485" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Zombie Attack" />
 		<property name="AnimationSecondAttack" value="Zombie Neck Bite" />
-		<property name="AnimationPain" value="Walking" />
-		<property name="AnimationJump" value="Walking" />
+		<property name="AnimationPain" value="Injured Walk" />
+		<property name="AnimationJump" value="Injured Walk" />
 		<property name="AnimationDeath" value="Standing React Death Right" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Zombie Running" />
+		<property name="AnimationWalk" value="Injured Walk" />
 		<property name="AnimationSpecialAttack" value="Zombie Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
@@ -4651,28 +4651,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieRotter05" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieRotter05" />
-		<property name="MaxHealth" value="385" />
+		<property name="Mesh" value="#RHHerd?herdRotter05" />
+		<property name="MaxHealth" value="485" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Zombie Attack" />
 		<property name="AnimationSecondAttack" value="Zombie Neck Bite" />
-		<property name="AnimationPain" value="Walking" />
-		<property name="AnimationJump" value="Walking" />
+		<property name="AnimationPain" value="Walking 1" />
+		<property name="AnimationJump" value="Walking 1" />
 		<property name="AnimationDeath" value="Standing React Death Right" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Zombie Running" />
+		<property name="AnimationWalk" value="Walking 1" />
 		<property name="AnimationSpecialAttack" value="Zombie Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
@@ -4681,28 +4681,28 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="zombieRotter06" extends="SDXTemplate">
-		<property name="Mesh" value="#RHZombies?zombieRotter06" />
-		<property name="MaxHealth" value="385" />
+		<property name="Mesh" value="#RHHerd?herdRotter06" />
+		<property name="MaxHealth" value="485" />
 		<property name="AnimationIdle" value="Zombie Idle" />
 		<property name="AnimationSecondIdle" value="Zombie Idle" />
 		<property name="AnimationMainAttack" value="Zombie Attack" />
 		<property name="AnimationSecondAttack" value="Zombie Neck Bite" />
-		<property name="AnimationPain" value="Walking" />
-		<property name="AnimationJump" value="Walking" />
+		<property name="AnimationPain" value="Injured Walk" />
+		<property name="AnimationJump" value="Injured Walk" />
 		<property name="AnimationDeath" value="Standing React Death Right" />
-		<property name="AnimationRun" value="Walking" />
-		<property name="AnimationWalk" value="Walking" />
+		<property name="AnimationRun" value="Zombie Running" />
+		<property name="AnimationWalk" value="Injured Walk" />
 		<property name="AnimationSpecialAttack" value="Zombie Attack" />
 		<property name="SoundRandom" value="Enemies/Base_Zombie_Male/zombiemaleroam"/>
 		<property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/>
@@ -4711,11 +4711,11 @@
 		<property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/>
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep" />
-		<property name="WanderSpeed" value="0.2" />
-		<property name="ApproachSpeed" value="0.3" />
-		<property name="NightWanderSpeed" value="0.2" />
-		<property name="NightApproachSpeed" value="0.3" />
-		<property name="PanicSpeed" value="0.3" />
+		<property name="WanderSpeed" value="0.4" />
+		<property name="ApproachSpeed" value="0.4" />
+		<property name="NightWanderSpeed" value="0.4" />
+		<property name="NightApproachSpeed" value="0.4" />
+		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="465" />
 		<property name="HandItem" value="handZombie" />
 		<property name="TimeStayAfterDeath" value="6" />

@@ -1422,6 +1422,7 @@
 	</block>
 	<block id="138" name="brickMaster">
 		<property name="Extends" value="brickNoUpgradeMaster"/>
+		<property name="DescriptionKey" value="brickGroupDesc"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="pouredConcreteMaster"/>
@@ -3938,18 +3939,21 @@
 	</block>
 	<block id="372" name="treasureChest">
 		<!-- do not rename -->
-	<property name="Class" value="Loot"/>
-	<property name="CustomIcon" value="cntChest01"/>
-	<property name="Material" value="wood+wood"/>
-	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
-	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
-	<property name="Mesh" value="models"/>
-	<property name="Model" value="LootContainers/chest01" param1="main_mesh"/> <property name="HandleFace" value="Bottom"/>
-	<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="70"/>
-	<drop event="Destroy" name="wood" count="1,3"/>
-	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Class" value="Loot"/>
+		<property name="CustomIcon" value="cntChest01"/>
+		<property name="Material" value="wood+wood"/>
+		<property name="StabilitySupport" value="false"/>
+		<!-- build restriction -->
+		<property name="Shape" value="Ext3dModel"/>
+		<property name="Texture" value="293"/>
+		<property name="Mesh" value="models"/>
+		<property name="Model" value="LootContainers/chest01" param1="main_mesh"/>
+		<property name="HandleFace" value="Bottom"/>
+		<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="LootList" value="70"/>
+		<drop event="Destroy" name="wood" count="1,3"/>
+		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	</block>
 	<block id="373" name="oilBarrel">
 		<!-- gasBarrel fuelBarrel -->
@@ -3981,6 +3985,7 @@
 	</block>
 	<block id="374" name="cinderBlocks01">
 		<property name="Material" value="rubble"/>
+		<property name="DescriptionKey" value="cinderBlocksDesc"/>
 		<property name="StabilitySupport" value="false"/>
 		<!-- build restriction -->
 		<property name="Shape" value="Ext3dModel"/>
@@ -4920,6 +4925,7 @@
 	</block>
 	<block id="470" name="signRoadArrowheadApache">
 		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="roadSignsDesc"/>
 		<property name="Material" value="Mmetal_thin"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
@@ -5497,7 +5503,7 @@
 		<drop event="Harvest" name="mushrooms" count="2" prob="0.8" tool_category="Pluck"/>
 		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
 		<drop event="Harvest" name="mushrooms" count="1" tool_category="Farm"/>
-		<drop event="Harvest" name="mushrooms" count="1" prob="0.3" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedMushroom1" count="1" prob="0.3" tool_category="Farm"/>
 		<drop event="Destroy" count="0"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="DescriptionKey" value="plantsFarmGroupDesc"/>
@@ -5571,6 +5577,7 @@
 	<block id="538" name="cinderBlocks03">
 		<property name="Extends" value="cinderBlocks01"/>
 		<property name="Model" value="Industrial/cinder_blocks03" param1="main_mesh"/>
+		<property name="DescriptionKey" value="cinderBlocksDesc"/>
 		<property name="SellableToTrader" value="false"/>
 	</block>
 	<block id="539" name="glassBulletproofBlock">
@@ -14658,6 +14665,7 @@
 	</block>
 	<block id="1527" name="ductControlPanel">
 		<property name="Material" value="metal"/>
+		<property name="DescriptionKey" value="ductControlPanelDesc"/>
 		<property name="Shape" value="Ext3dModel"/>
 		<property name="Texture" value="293"/>
 		<property name="Mesh" value="models"/>
@@ -15363,6 +15371,7 @@
 	</block>
 	<block id="1620" name="brickCNRRound">
 		<property name="Extends" value="brickNoUpgradeMaster"/>
+		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
 		<property name="Texture" value="7"/>
@@ -24230,11 +24239,5 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="62"/>
 	</block>
-	<!-- ***** Free ID Slots in the Blocks.xml ********* 
-
-	21   67 @ 69    78 @ 80    88    95 @ 103  	1832    1861 @ 1886  	
-	
-    1839 @ 1855    1836   1838    	2027        2033 @ 2040     	
-
- 	You cannot go further than 2047. -->
+	<!-- ***** Free ID Slots in the Blocks.xml *********  	21   67 @ 69    78 @ 80    88    95 @ 103  	1832    1861 @ 1886  	 	 1839 @ 1855    1836   1838    	2027        2033 @ 2040     		You cannot go further than 2047. -->
 </blocks>

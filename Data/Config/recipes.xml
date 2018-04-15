@@ -555,10 +555,11 @@
 		<ingredient name="coffeeBeans" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="concreteMix" count="1" craft_area="cementMixer">
-		<ingredient name="crushedSand" count="1"/>
-		<ingredient name="rockSmall" count="2"/>
-		<ingredient name="cement" count="1"/>
+	<recipe name="concreteMix" count="250" craft_area="cementMixer">
+		<ingredient name="crushedSand" count="250"/>
+		<ingredient name="rockSmall" count="250"/>
+		<ingredient name="cement" count="500"/>
+		<ingredient name="bucketWater" count="1"/>
 	</recipe>
 	<recipe name="pouredConcreteBlock" count="1">
 		<ingredient name="concreteMix" count="10"/>
@@ -688,7 +689,7 @@
 		<ingredient name="cloth" count="1"/>
 		<ingredient name="tallow" count="1"/>
 	</recipe>
-	<recipe name="foodYuccaJuice" count="1"> 
+	<recipe name="foodYuccaJuice" count="1">
 		<ingredient name="foodYuccaFruit" count="4"/>
 		<ingredient name="emptyJar" count="1"/>
 	</recipe>
@@ -2659,60 +2660,70 @@
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="handgunKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="shotgunKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="survivorKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="bowKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="bladeKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="bluntKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="farmerKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="medicalKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<!-- Classes Mod -->
 	<recipe name="averageKitLocked" craft_time="30"  craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="300"/>
 		<ingredient name="ink" count="25"/>
 		<ingredient name="forgedIron" count="10"/>
+		<ingredient name="forgedSteel" count="1"/>
 	</recipe>
 	<recipe name="survivorKey" count="1">
 		<ingredient name="forgedIron" count="5"/>
@@ -3046,7 +3057,7 @@
 		<ingredient name="dough" count="1"/>
 	</recipe>
 	<recipe name="cheese" count="1" craft_time="8" craft_area="advancedCampfire">
-		<ingredient name="SoyMilk" count="2"/>
+		<ingredient name="SoyMilk" count="4"/>
 	</recipe>
 	<recipe name="SoyMilk" count="1" craft_time="8" craft_area="advancedCampfire" craft_tool="beaker">
 		<ingredient name="SoyBeans" count="1"/>
@@ -3398,10 +3409,10 @@
 	<recipe name="opaqueBusinessGlass" count="1">
 		<ingredient name="brokenGlass" count="10"/>
 	</recipe>
-	<recipe name="electricCharge" count="30" craft_area="chemistryStation">
+	<recipe name="electricCharge" count="5" craft_area="chemistryStation">
 		<ingredient name="carBattery" count="1"/>
-		<ingredient name="electronicParts" count="3"/>
-		<ingredient name="scrapPlastics" count="3"/>
+		<ingredient name="electronicParts" count="5"/>
+		<ingredient name="scrapPlastics" count="10"/>
 	</recipe>
 	<recipe name="electricChainLinkFence" count="1" craft_area="advancedWorkbench">
 		<ingredient name="chainLinkFenceTopPole" count="20"/>
@@ -4315,7 +4326,7 @@
 		<ingredient name="tomato" count="3"/>
 	</recipe>
 	<recipe name="cheese" count="1" craft_time="8" craft_area="Stoves">
-		<ingredient name="SoyMilk" count="4"/>
+		<ingredient name="SoyMilk" count="2"/>
 	</recipe>
 	<recipe name="SoyMilk" count="1" craft_time="8" craft_area="Stoves">
 		<ingredient name="SoyBeans" count="1"/>
@@ -5501,17 +5512,17 @@
 	<recipe name="carBattery" count="1" craft_area="advancedWorkbench">
 		<ingredient name="car_parts" count="150"/>
 		<ingredient name="electricParts" count="10"/>
-		<ingredient name="electricCharge" count="4"/>
+		<ingredient name="electricCharge" count="5"/>
 	</recipe>
 	<recipe name="HDBattery" count="1" craft_area="advancedWorkbench">
 		<ingredient name="car_parts" count="500"/>
 		<ingredient name="electricParts" count="10"/>
-		<ingredient name="electricCharge" count="4"/>
+		<ingredient name="electricCharge" count="10"/>
 	</recipe>
 	<recipe name="ECOBattery" count="1" craft_area="advancedWorkbench">
 		<ingredient name="car_parts" count="250"/>
 		<ingredient name="electricParts" count="10"/>
-		<ingredient name="electricCharge" count="4"/>
+		<ingredient name="electricCharge" count="7"/>
 	</recipe>
 	<recipe name="cntCardboardBoxStorage" count="1">
 		<ingredient name="paper" count="16"/>
@@ -5524,13 +5535,13 @@
 		<ingredient name="redMeat" count="1"/>
 		<ingredient name="salt" count="1"/>
 	</recipe>
-	<recipe name="trailMix" count="6" craft_area="dryingRack" craft_time="120">
+	<recipe name="trailMix" count="6" craft_area="mortarAndPestle" craft_time="120">
 		<ingredient name="blueberries" count="5"/>
 		<ingredient name="corn" count="5"/>
 		<ingredient name="candyBar" count="1"/>
 		<ingredient name="treePlantedMaple1m" count="5"/>
 	</recipe>
-	<recipe name="trailMix" count="6" craft_area="dryingRack" craft_time="120">
+	<recipe name="trailMix" count="6" craft_area="mortarAndPestle" craft_time="120">
 		<ingredient name="blueberries" count="5"/>
 		<ingredient name="corn" count="5"/>
 		<ingredient name="candyBar" count="1"/>
@@ -5919,7 +5930,7 @@
 		<ingredient name="salt" count="1"/>
 		<ingredient name="beer" count="1"/>
 	</recipe>
-	<recipe name="coleSlaw" count="10"  craft_time="30" craft_area="blender">
+	<recipe name="coleSlaw" count="10"  craft_time="30" craft_area="Blender">
 		<ingredient name="cabbage" count="1"/>
 		<ingredient name="vinegar" count="1"/>
 		<ingredient name="carrot" count="1"/>

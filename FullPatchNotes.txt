@@ -1901,3 +1901,36 @@ Patch 3.1.2 Release Patch Notes  Release Date 04/10/2018
 
 -Added Bundle Size limit to raw diamonds
 
+
+------------------------------------------------------------------
+
+Patch 3.1.3 Release Patch Notes  Release Date 04/10/2018
+
+
+-Fixed Capitalization Error in Blender
+
+-More German Translations thanks to Scomar
+
+-Added missing Localization descriptions thanks to Makabriel
+
+-Mushrooms now have a chance to give a seed back when using the hoe
+
+-Looted Colored clothing and armor can now be sold
+
+-Engines can now be scrapped for Car Parts
+
+-Fixed LSAT magazine sizes
+
+-Buckets now stack to 10 and Buckets of water (required for Concrete Mix) now stack to 5
+
+-Concrete Mix has been completely revamped with a new recipe that requires buckets of water and increased mats.
+
+-Additional classes now require 1 forged steel to craft
+
+-Trail Mix is now made in the Mortar and Pestle
+
+-Cheese recipe fixed 
+
+-Added a second skyscraper group so more skyscraper varieties will spawn (May require map reset or unexplored areas of map to be uncovered to notice)
+
+-Herd Zombies hitboxes redone to be tighter and more fluid. Animations worked on a bit but still require work (2 glitched Herd Zombies with white textures are still spawning and can not be removed without breaking the quest)
