@@ -6,4 +6,7 @@
 	<property name="AllowTopSoilDecorations" value="False" />
 	<property name="YOffset" value="-1"/>
 	<property name="TraderArea" value="False" />
+	<property name="Zoning" value="Industrial,ResidentialNew"/>
+	<property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland_hub,wasteland,city,city_wasteland"/>
+	<property name="AllowedTownships" value="town,rural"/>
 </prefab>

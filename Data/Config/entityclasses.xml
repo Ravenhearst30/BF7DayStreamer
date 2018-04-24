@@ -3127,6 +3127,18 @@
 		<property name="HandItem" value="handAnimalZombieBear"/>
 		<property name="ReplaceMaterial0" value="Materials/UMAFur_ZombieBear"/>
 		<property name="DeadBodyHitPoints" value="600"/>
+		<property name="AITask-1" value="Swim"/>
+		<property name="AITask-2" value="BreakDoor"/>
+		<property name="AITask-3" value="BreakBlock"/>
+		<property name="AITask-4" value="Territorial"/>
+		<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag" param2="40"/>
+		<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityPlayer" param2="25"/>
+		<property name="AITask-7" value="ApproachSpot"/>
+		<property name="AITask-8" value="Wander"/>
+		<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+		<property name="AITarget-2" value="BlockingTargetTask"/>
+		<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" param2="8"/>
+		<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityAnimalStag"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="10"/>
 		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="10"/>
 		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="5"/>

@@ -1934,3 +1934,97 @@ Patch 3.1.3 Release Patch Notes  Release Date 04/10/2018
 -Added a second skyscraper group so more skyscraper varieties will spawn (May require map reset or unexplored areas of map to be uncovered to notice)
 
 -Herd Zombies hitboxes redone to be tighter and more fluid. Animations worked on a bit but still require work (2 glitched Herd Zombies with white textures are still spawning and can not be removed without breaking the quest)
+
+
+------------------------------------------------------------
+
+Patch 3.1.4 Release Patch Notes  Release Date 04/??/2018
+
+
+-Added Wood Pillar 50 upgrades to recipes
+
+-Fixed Advanced Forge Quest asking for 5 pipes when 6 are needed
+
+-Fixed Description on Metal Siding
+
+-Recipe of Shock Trap now yields 5
+
+-Zombie Bear No Longer Attacks Zombies Out of Professional Courtesy
+
+-All fridges now cool drinks
+
+-Changed weight of WoodHard Mass to 10 from 36
+
+-Changed weight of Wood Medium Mass to 5 from 36
+
+-Train Cars no longer destroy into itself.
+
+-Added canned food to shamway loot
+
+-Fixed hops plant when harvested with hoe giving back potato seeds
+
+-Scrap Iron Blocks that can be Crafted Increased to 30 each to make the wood upgrade path more cost efficient
+
+-Scrap Iron Frames increased to 20 scrap iron
+
+-Buckets can now be filled in wells
+
+-Added Wood Pyramid Recipe
+
+-Fully edited Progression,Quest and Localization files for German Translations
+
+-Changed Rare Book to prob 0.2
+
+-Dirt and Grass fall traps Hay Trap requirement removed and replaced by dirt fragments
+
+-Increased chance of 5-7 drops
+
+-Added Colt Python to Rare Guns Loot
+
+-Increased Damage done by Colt Python
+
+-Added Wood Counter 2 and 3
+
+-Added Storage Shed to Advanced Workbench
+
+-Fixed some descriptions
+
+-Removed Snowberry Juice from Stoves
+
+-Added Volume to LSAT
+
+-Fishing Rod now Stacks to 1
+
+-Bread Stove Recipe now requires 1 Dough
+
+-Tree Growth times lowered from 420 to 360
+
+-Increased Crowbar Chance Slightly
+
+-Added Pan, Crucible and Tenderizer to Traders
+
+-Adjusted some loot for junk food and seeds.
+
+-Added Poured Concrete Stairs 50
+
+-Added Redone RE Mansion
+
+-All junk food now will reduce wellness by 0.01 (candy bars, soda, chips)
+
+-Fixed Adhesive and Fire Traps
+
+-Fixed improper loot list when breaking open a Secure Storage Chest
+
+-Added Dancapos fixed Prison
+
+-Fixed Spawning of Sinder and Dex houses (requires unexplored area)
+
+-Painkillers now remove 0.1 wellness when taken and only remove 5 Hydration
+
+-Adjusted Wellness and Hydration on serveral food items for better balance and to combat exploits
+
+-Fixed Streamer Versions not having the corrected Zombie Hitbox Models
+
+-Adjusted Boomstick and Reggie Special Damage
+
+-Removed Class Only Stations from Traders

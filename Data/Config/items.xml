@@ -767,7 +767,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="10"/>
-			<property name="Gain_water" value="-10"/>
+			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 			<property name="Create_item" value="canEmpty"/>
@@ -792,7 +792,7 @@
 			<property name="Delay" value="2.0"/>
 			<property name="Use_time" value="..."/>
 			<property name="Gain_food" value="5"/>
-			<property name="Gain_water" value="-2"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_gas" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -805,7 +805,7 @@
 		<property name="Meshfile" value="Items/Food/can_dogfoodPrefab"/>
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
-			<property name="Gain_water" value="-2"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_gas" value="0"/>
 		</property>
 	</item>
@@ -815,7 +815,7 @@
 		<property name="Meshfile" value="Items/Food/can_chiliPrefab"/>
 		<property class="Action1">
 			<property name="Gain_food" value="9"/>
-			<property name="Gain_water" value="-5"/>
+			<property name="Gain_water" value="-2"/>
 			<property name="Gain_gas" value="0"/>
 		</property>
 	</item>
@@ -873,7 +873,7 @@
 		<property name="Meshfile" value="Items/Food/can_tunaPrefab"/>
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
-			<property name="Gain_water" value="-2"/>
+			<property name="Gain_water" value="-1"/>
 		</property>
 	</item>
 	<item id="46" name="canHam">
@@ -3203,7 +3203,7 @@
 		</property>
 		<property class="Action0">
 			<property name="Delay" value="0.15"/>
-			<property name="Reload_time" value="4"/>
+			<property name="Reload_time" value="3"/>
 			<property name="Sound_start" value="coltPythonShoot"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
@@ -3217,7 +3217,7 @@
 		<property name="CustomIcon" value="parts44Magnum_frame"/>
 		<property name="CustomIconTint" value="FF0000"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="18,27"/>
+			<property name="EntityDamage" value="19,32"/>
 			<property name="BlockDamage" value="1,1"/>
 			<property name="DegradationMax" value="2000,10000"/>
 		</property>
@@ -3586,7 +3586,7 @@
 	</item>
 	<item id="213" name="reggieSpecial">
 		<property name="Meshfile" value="#doublebarrel?DoubleBarrel"/>
-		<property name="DescriptionKey" value="doublebarrelShotgunDesc"/>
+		<property name="DescriptionKey" value="reggieSpecialDesc"/>
 		<property name="Material" value="metal"/>
 		<property name="RepairTools" value="repairKit"/>
 		<property name="HoldType" value="5"/>
@@ -3629,8 +3629,8 @@
 			<property name="DegradationRate" value="9,5"/>
 			<property name="FalloffRange" value="55,99"/>
 			<property name="DegradationMax" value="1800,3600"/>
-			<property name="EntityDamage" value="5,15"/>
-			<property name="BlockDamage" value="5,15"/>
+			<property name="EntityDamage" value="3,10"/>
+			<property name="BlockDamage" value="2,8"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="Categories" value="Weapons"/>
@@ -3682,8 +3682,8 @@
 		<property name="PartType" value="Barrel"/>
 		<property name="Weight" value="30"/>
 		<property class="Attributes">
-			<property name="EntityDamage" value="5,15"/>
-			<property name="BlockDamage" value="5,15"/>
+			<property name="EntityDamage" value="3,10"/>
+			<property name="BlockDamage" value="2,8"/>
 			<property name="DegradationMax" value="1800,3600"/>
 		</property>
 	</item>
@@ -4664,6 +4664,7 @@
 	</item>
 	<item id="266" name="FAMASExtendedMag">
 		<property name="Extends" value="FAMAS"/>
+		<property name="CustomIcon" value="FAMASExtendedMag"/>
 		<property class="Parts">
 			<property name="Stock" value="FAMAS_StockextendedMagazine"/>
 		</property>
@@ -7992,7 +7993,8 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-30"/>
+			<property name="Gain_water" value="0"/>
+			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Sound_start" value="player_painkillers"/>
 			<property name="Buff" value="painkillerBuff"/>
 		</property>
@@ -8002,7 +8004,8 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-30"/>
+			<property name="Gain_water" value="0"/>
+			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Sound_start" value="player_painkillers"/>
 			<property name="Buff" value="painkillerBuff"/>
 		</property>
@@ -18770,7 +18773,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Gain_water" value="-3"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -18802,7 +18805,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="3"/>
-			<property name="Gain_water" value="-3"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -18826,7 +18829,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="4"/>
-			<property name="Gain_water" value="-2"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0.07"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -18998,7 +19001,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="3"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.01"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Categories" value="Meals"/>
@@ -19019,7 +19022,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="3"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.01"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Categories" value="Meals"/>
@@ -19184,7 +19187,7 @@
 		<property class="Action1">
 			<property name="Gain_food" value="5"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.01"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Categories" value="Meals"/>
@@ -19195,9 +19198,9 @@
 		<property name="DescriptionKey" value="bagChipsHotDesc"/>
 		<property name="Meshfile" value="#RHFoods?chipsHot"/>
 		<property class="Action1">
-			<property name="Gain_food" value="6"/>
-			<property name="Gain_water" value="-5"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_food" value="4"/>
+			<property name="Gain_water" value="0"/>
+			<property name="Gain_wellness" value="-0.01"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Categories" value="Meals"/>
@@ -19469,7 +19472,7 @@
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 		<property class="Action1">
 			<property name="Gain_food" value="1"/>
-			<property name="Gain_water" value="-1"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -19486,7 +19489,7 @@
 			<property name="Gain_health" value="2"/>
 			<property name="Gain_food" value="3"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.01"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Categories" value="Meals"/>
@@ -19501,7 +19504,7 @@
 			<property name="Gain_stamina" value="8"/>
 			<property name="Gain_food" value="3"/>
 			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_wellness" value="-0.01"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Categories" value="Meals"/>
@@ -19600,7 +19603,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Gain_water" value="-1"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -19860,7 +19863,7 @@
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="25"/>
-			<property name="Gain_water" value="-5"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0.5"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -19982,7 +19985,7 @@
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Gain_water" value="-1"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0.04"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -20075,7 +20078,7 @@
 			<property name="Use_time" value="0..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="12"/>
-			<property name="Gain_water" value="-5"/>
+			<property name="Gain_water" value="-2"/>
 			<property name="Gain_stamina" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -20190,7 +20193,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
-			<property name="Gain_water" value="-1"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0.0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -20564,7 +20567,7 @@
 		<property class="Action1">
 			<property name="Gain_health" value="10"/>
 			<property name="Gain_food" value="15"/>
-			<property name="Gain_water" value="-10"/>
+			<property name="Gain_water" value="-5"/>
 			<property name="Gain_gas" value="30"/>
 		</property>
 		<property name="Categories" value="Soups/Stews"/>
@@ -20736,7 +20739,7 @@
 		<property class="Action1">
 			<property name="Gain_health" value="13"/>
 			<property name="Gain_food" value="16"/>
-			<property name="Gain_water" value="-13"/>
+			<property name="Gain_water" value="-5"/>
 			<property name="Gain_gas" value="33"/>
 			<property name="Gain_wellness" value="0.25"/>
 			<property name="Buff" value="stewWarming"/>
@@ -20991,6 +20994,8 @@
 			<property name="Focused_blockname_7" value="cntCooler"/>
 			<property name="Focused_blockname_8" value="cntFridge"/>
 			<property name="Focused_blockname_9" value="cntEPSFridge"/>
+			<property name="Focused_blockname_10" value="oldFridge1"/>
+			<property name="Focused_blockname_11" value="fridgeStainlessSteel"/>
 			<property name="Sound_start" value="bucketfill_water"/>
 		</property>
 		<property class="Action1">
@@ -21049,6 +21054,8 @@
 			<property name="Focused_blockname_7" value="cntCooler"/>
 			<property name="Focused_blockname_8" value="cntFridge"/>
 			<property name="Focused_blockname_9" value="cntEPSFridge"/>
+			<property name="Focused_blockname_10" value="oldFridge1"/>
+			<property name="Focused_blockname_11" value="fridgeStainlessSteel"/>
 			<property name="Sound_start" value="bucketfill_water"/>
 		</property>
 		<property class="Action1">
@@ -21091,6 +21098,8 @@
 			<property name="Focused_blockname_7" value="cntCooler"/>
 			<property name="Focused_blockname_8" value="cntFridge"/>
 			<property name="Focused_blockname_9" value="cntEPSFridge"/>
+			<property name="Focused_blockname_10" value="oldFridge1"/>
+			<property name="Focused_blockname_11" value="fridgeStainlessSteel"/>
 			<property name="Sound_start" value="bucketfill_water"/>
 		</property>
 		<property class="Action1">
@@ -21152,6 +21161,8 @@
 			<property name="Focused_blockname_7" value="cntCooler"/>
 			<property name="Focused_blockname_8" value="cntFridge"/>
 			<property name="Focused_blockname_9" value="cntEPSFridge"/>
+			<property name="Focused_blockname_10" value="oldFridge1"/>
+			<property name="Focused_blockname_11" value="fridgeStainlessSteel"/>
 			<property name="Sound_start" value="bucketfill_water"/>
 		</property>
 		<property class="Action1">
@@ -21212,7 +21223,7 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_stamina" value="10"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-10"/>
+			<property name="Gain_water" value="-5"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="DrinkGrainAlcohol"/>
@@ -21426,7 +21437,7 @@
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_stamina" value="15"/>
 			<property name="Sound_start" value="player_drinking"/>
-			<property name="Gain_wellness" value="0.1"/>
+			<property name="Gain_wellness" value="0.3"/>
 			<property name="Create_item" value="plasticBottle"/>
 			<property name="Buff" value="yuccaJuiceCooling"/>
 			<property name="Debuff" value="burning"/>
@@ -21483,6 +21494,7 @@
 			<property name="Gain_stamina" value="10"/>
 			<property name="Gain_food" value="0"/>
 			<property name="Gain_water" value="6"/>
+			<property name="Gain_wellness" value="-0.01"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Create_item" value="canEmpty"/>
 		</property>
@@ -21540,8 +21552,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_stamina" value="20"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-10"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_water" value="-5"/>
+			<property name="Gain_wellness" value="0.02"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="DrinkHardLiquor"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -21568,8 +21580,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_stamina" value="20"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-10"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_water" value="-5"/>
+			<property name="Gain_wellness" value="0.02"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="DrinkHardLiquor"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -21596,8 +21608,8 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_stamina" value="20"/>
 			<property name="Gain_food" value="0"/>
-			<property name="Gain_water" value="-10"/>
-			<property name="Gain_wellness" value="0"/>
+			<property name="Gain_water" value="-5"/>
+			<property name="Gain_wellness" value="0.02"/>
 			<property name="Sound_start" value="player_drinking"/>
 			<property name="Buff" value="DrinkHardLiquor"/>
 			<property name="Create_item" value="emptyJar"/>
@@ -23864,7 +23876,7 @@
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="Material" value="metal"/>
 		<property name="HoldType" value="34"/>
-		<property name="Stacknumber" value="10"/>
+		<property name="Stacknumber" value="5"/>
 		<property name="EconomicValue" value="84"/>
 		<property class="Action0">
 			<property name="Class" value="BailLiquid"/>
@@ -23883,6 +23895,7 @@
 			<property name="Focused_blockname_5" value="waterSource8"/>
 			<property name="Focused_blockname_6" value="workingGranitSink"/>
 			<property name="Focused_blockname_7" value="workingCabinetSink"/>
+			<property name="Focused_blockname_7" value="waterWell"/>
 			<property name="Sound_start" value="bucketfill_water"/>
 		</property>
 		<property name="Group" value="Tools/Traps"/>
@@ -25039,7 +25052,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Gain_water" value="-10"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
@@ -25222,7 +25235,7 @@
 		<property name="Meshfile" value="#RHFoods?ramen"/>
 		<property class="Action1">
 			<property name="Gain_food" value="1"/>
-			<property name="Gain_water" value="-5"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
@@ -25337,8 +25350,8 @@
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
 			<property name="Use_time" value="0..."/>
-			<property name="Gain_food" value="-3"/>
-			<property name="Gain_water" value="-8"/>
+			<property name="Gain_food" value="0"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -25990,9 +26003,10 @@
 		<property name="Meshfile" value="#fishingRod?fishingRod"/>
 		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="32"/>
-		<property name="EconomicValue" value="500"/>
+		<property name="EconomicValue" value="200"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
+		<property name="Stacknumber" value="1"/>
 		<property class="Action0">
 			<!-- UseAction -->
 			<property name="Class" value="ExchangeItem"/>
@@ -26065,7 +26079,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="5"/>
-			<property name="Gain_water" value="-2"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0.042"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>
@@ -26116,7 +26130,7 @@
 			<property name="Use_time" value="..."/>
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="2"/>
-			<property name="Gain_water" value="-3"/>
+			<property name="Gain_water" value="0"/>
 			<property name="Gain_wellness" value="0"/>
 			<property name="Sound_start" value="player_eating"/>
 		</property>

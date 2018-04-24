@@ -14,6 +14,7 @@
 	</block>
 	<block id="1" name="stone">
 		<property name="Material" value="stone"/>
+		<property name="MaxDamage" value="300"/>
 		<property name="Shape" value="Terrain"/>
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="1"/>
@@ -27,9 +28,9 @@
 		</property>
 		<property name="HarvestOverdamage" value="true"/>
 		<!-- default=true -->
-		<drop event="Harvest" name="rockSmall" count="28" tool_category="harvestingTools"/>
-		<drop event="Harvest" name="ironFragment" count="8" tool_category="harvestingTools"/>
-		<drop event="Harvest" name="scrapLead" count="4" prob="0.033" tool_category="Miner"/>
+		<drop event="Harvest" name="rockSmall" count="24" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="ironFragment" count="6" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="scrapLead" count="3" prob="0.033" tool_category="Miner"/>
 		<drop event="Harvest" name="coal" count="3" prob="0.023" tool_category="Miner"/>
 		<drop event="Harvest" name="potassiumNitratePowder" count="3" prob="0.023" tool_category="Miner"/>
 		<drop event="Destroy" count="0"/>
@@ -1253,7 +1254,7 @@
 		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine8m"/>
-		<property name="PlantGrowing.GrowthRate" value="420"/>
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="EconomicValue" value="24"/>
@@ -3583,7 +3584,7 @@
 		<property name="HandleFace" value="Bottom"/>
 		<property name="ImposterExchange" value="imposterQuarter" param1="154"/>
 		<property name="IsTerrainDecoration" value="true"/>
-		<property name="LootList" value="241"/>
+		<property name="LootList" value="196"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
@@ -4102,7 +4103,7 @@
 		<property name="UpgradeRated.ToBlock" value="concreteEighth"/>
 	</block>
 	<block id="384" name="scrapIronSheet">
-		<property name="DescriptionKey" value="scrapIronGroupDesc"/>
+		<property name="DescriptionKey" value="scrapIronGroup1Desc"/>
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="billboard"/>
@@ -5459,7 +5460,7 @@
 		<drop event="Harvest" name="hopsFlower" count="1" prob="0.8" tool_category="Pluck"/>
 		<drop event="Harvest" name="rottingHarvest" count="1" prob="0.2" tool_category="Pluck"/>
 		<drop event="Harvest" name="hopsFlower" count="1" tool_category="Farm"/>
-		<drop event="Harvest" name="plantedPotato1" count="1" prob="0.3" tool_category="Farm"/>
+		<drop event="Harvest" name="plantedHop1" count="1" prob="0.3" tool_category="Farm"/>
 	</block>
 	<block id="530" name="plantedMushroom1">
 		<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
@@ -8467,7 +8468,7 @@
 		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="63"/>
-		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+		<property name="Collide" value="sight,melee,bullet,arrow,movement,rocket"/>
 		<drop event="Destroy" name="cloth" count="1,3" prob="1"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="SellableToTrader" value="false"/>
@@ -10338,7 +10339,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Texture" value="580"/>
 		<property name="UseGlobalUV" value="L,D,D,D,D,D"/>
-		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+		<property name="Collide" value="sight,melee,bullet,arrow,movement,rocket"/>
 		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
 		<drop event="Destroy" name="scrapPlastics" count="1,2"/>
 		<property name="EconomicValue" value="20"/>
@@ -13311,11 +13312,14 @@
 		<drop event="Destroy" count="0"/>
 	</block>
 	<block id="1395" name="woodPillar50">
-		<property name="Extends" value="woodNoUpgradeMaster"/>
+		<property name="Extends" value="woodMaster"/>
 		<property name="Shape" value="New"/>
 		<property name="Model" value="Pole0.5m"/>
 		<property name="LightOpacity" value="0"/>
 		<property name="UseGlobalUV" value="Local"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="rWoodPillar50"/>
+		</property>
 	</block>
 	<block id="1396" name="flagstoneWedgeTip">
 		<property name="Extends" value="flagstoneMaster"/>
@@ -17050,7 +17054,7 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Class" value="SecureLoot"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="LootList" value="200"/>
+		<property name="LootList" value="102"/>
 		<property name="Categories" value="Storage"/>
 		<property name="Categories_UI" value="ui_game_symbol_treasure"/>
 		<drop event="Destroy" count="0"/>
@@ -18621,7 +18625,7 @@
 		<property name="Damage" value="3"/>
 		<property name="Damage_received" value="6"/>
 		<property name="MaxDamage" value="200"/>
-		<property name="Material" value="wood_regular"/>
+		<property name="Material" value="MbarbedFence"/>
 		<property name="Shape" value="New"/>
 		<property name="LightOpacity" value="6"/>
 		<property name="Model" value="cone1m"/>
@@ -19393,7 +19397,7 @@
 	<block id="1737" name="plantedWeed1">
 		<property name="Extends" value="cropsGrowingMaster"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="DescriptionKey" value="plantSeedDesc"/>
+		<property name="DescriptionKey" value="plantWeedSeedDesc"/>
 		<property name="Model" value="#RHPlants?plantedWeed1Prefab"/>
 		<property name="CustomIcon" value="plantedWeed1"/>
 		<property name="Collide" value="melee"/>
@@ -23788,6 +23792,7 @@
 		</property>
 		<drop event="Harvest" name="forgedSteel" count="100" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="60"/>
 		<property name="MultiBlockDim" value="13,4,5"/>
 		<property name="LootList" value="239"/>
@@ -23807,6 +23812,7 @@
 		</property>
 		<drop event="Harvest" name="forgedSteel" count="100" tool_category="Disassemble"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<drop event="Destroy" count="0"/>
 		<property name="EconomicValue" value="60"/>
 		<property name="MultiBlockDim" value="11,4,5"/>
 		<property name="LootList" value="239"/>
@@ -24080,7 +24086,7 @@
 		</property>
 		<drop event="Harvest" name="forgedIron" count="2" tool_category="Disassemble"/>
 		<drop event="Harvest" name="scrapIron" count="2" tool_category="Disassemble"/>
-		<drop event="Destroy" name="scrapIron" count="4" tool_category="harvestingTools"/>
+		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="60"/>
 		<property name="MultiBlockDim" value="2,1,2"/>
@@ -24239,5 +24245,27 @@
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="62"/>
 	</block>
-	<!-- ***** Free ID Slots in the Blocks.xml *********  	21   67 @ 69    78 @ 80    88    95 @ 103  	1832    1861 @ 1886  	 	 1839 @ 1855    1836   1838    	2027        2033 @ 2040     		You cannot go further than 2047. -->
+	<block id="1836" name="rWoodPillar50">
+		<property name="Extends" value="rWoodMaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="Pole0.5m"/>
+		<property name="LightOpacity" value="0"/>
+		<property name="UseGlobalUV" value="Local"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="rWoodMetalPillar50"/>
+		</property>
+		<property name="DowngradeBlock" value="woodPillar50"/>
+	</block>
+	<block id="1838" name="rWoodMetalPillar50">
+		<property name="Extends" value="rWoodMetalMaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="Pole0.5m"/>
+		<property name="UseGlobalUV" value="Local"/>
+		<property name="ImposterExchange" value="imposterDontBlockBlock" param1="120"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="scrapIronPillar50"/>
+		</property>
+		<property name="DowngradeBlock" value="rWoodPillar50"/>
+	</block>
+	<!-- ***** Free ID Slots in the Blocks.xml *********  	21   67 @ 69    78 @ 80    88    95 @ 103  	1832    1861 @ 1886  	 	 1839 @ 1855    1836     	2027        2033 @ 2040     		You cannot go further than 2047. -->
 </blocks>

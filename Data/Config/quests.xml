@@ -221,7 +221,7 @@
 	<quest id="quest_forges2" group_name_key="quest_forges" name_key="quest_forges2" subtitle_key="quest_forges2_subtitle"  description_key="quest_forges2_description" 	icon="ui_game_symbol_hammer" category_key="quest" difficulty="medium">
 		<objective type="FetchKeep" id="rockSmall" value="200"/>
 		<objective type="FetchKeep" id="clayLump" value="150"/>
-		<objective type="FetchKeep" id="shortMetalPipe" value="5"/>
+		<objective type="FetchKeep" id="shortMetalPipe" value="6"/>
 		<objective type="FetchKeep" id="wood" value="12"/>
 		<objective type="FetchKeep" id="leather" value="40"/>
 		<objective type="FetchKeep" id="bellows" value="2"/>
