@@ -14,7 +14,7 @@
 	</block>
 	<block id="1" name="stone">
 		<property name="Material" value="stone"/>
-		<property name="MaxDamage" value="300"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Shape" value="Terrain"/>
 		<property name="Mesh" value="terrain"/>
 		<property name="Texture" value="1"/>
@@ -28,8 +28,8 @@
 		</property>
 		<property name="HarvestOverdamage" value="true"/>
 		<!-- default=true -->
-		<drop event="Harvest" name="rockSmall" count="24" tool_category="harvestingTools"/>
-		<drop event="Harvest" name="ironFragment" count="6" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="rockSmall" count="26" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="ironFragment" count="8" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="scrapLead" count="3" prob="0.033" tool_category="Miner"/>
 		<drop event="Harvest" name="coal" count="3" prob="0.023" tool_category="Miner"/>
 		<drop event="Harvest" name="potassiumNitratePowder" count="3" prob="0.023" tool_category="Miner"/>
@@ -6591,11 +6591,11 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 		<property name="PassThroughDamage" value="true"/>
-		<drop event="Harvest" name="rockSmall" count="30" tool_category="harvestingTools"/>
+		<drop event="Harvest" name="rockSmall" count="24" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="ironFragment" count="4" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="coal" count="3" prob="0.33" tool_category="harvestingTools"/>
-		<drop event="Harvest" name="potassiumNitratePowder" count="3" prob="0.33" tool_category="Miner"/>
-		<drop event="Harvest" name="scrapLead" count="5" prob="0.33" tool_category="Miner"/>
+		<drop event="Harvest" name="potassiumNitratePowder" count="2" prob="0.33" tool_category="Miner"/>
+		<drop event="Harvest" name="scrapLead" count="2" prob="0.33" tool_category="Miner"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="rockResourceBroke1"/>
 		<property name="Map.Color" value="120,120,120"/>
@@ -8468,7 +8468,7 @@
 		<property name="DescriptionKey" value="genericBlockDesc"/>
 		<property name="Mesh" value="cutout"/>
 		<property name="Texture" value="63"/>
-		<property name="Collide" value="sight,melee,bullet,arrow,movement,rocket"/>
+		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
 		<drop event="Destroy" name="cloth" count="1,3" prob="1"/>
 		<property name="EconomicValue" value="20"/>
 		<property name="SellableToTrader" value="false"/>
@@ -10339,7 +10339,7 @@
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Texture" value="580"/>
 		<property name="UseGlobalUV" value="L,D,D,D,D,D"/>
-		<property name="Collide" value="sight,melee,bullet,arrow,movement,rocket"/>
+		<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
 		<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
 		<drop event="Destroy" name="scrapPlastics" count="1,2"/>
 		<property name="EconomicValue" value="20"/>

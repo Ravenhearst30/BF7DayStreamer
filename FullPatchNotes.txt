@@ -1938,7 +1938,7 @@ Patch 3.1.3 Release Patch Notes  Release Date 04/10/2018
 
 ------------------------------------------------------------
 
-Patch 3.1.4 Release Patch Notes  Release Date 04/??/2018
+Patch 3.1.4 Release Patch Notes  Release Date 04/24/2018
 
 
 -Added Wood Pillar 50 upgrades to recipes
@@ -2028,3 +2028,9 @@ Patch 3.1.4 Release Patch Notes  Release Date 04/??/2018
 -Adjusted Boomstick and Reggie Special Damage
 
 -Removed Class Only Stations from Traders
+
+
+Patch 3.1.5 Release Patch Notes  Release Date 04/25/2018
+
+
+-Fixed Boulders and Underground Stone giving less material
